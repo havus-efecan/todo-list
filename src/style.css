@@ -1,0 +1,132 @@
+html,body{
+    height: 100%;
+    margin: 0;
+
+    
+
+    
+}
+body{
+    background: hsla(337, 65%, 78%, 1);
+    background: linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);
+    background: -moz-linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);
+    background: -webkit-linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+}
+
+.main-container{
+    height: 70%;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+
+    display: grid;
+
+    grid-template: 0.2fr 1fr/ 0.3fr 1fr;
+
+}
+
+
+.header{
+    grid-area: 1/1/2/3;
+    display: flex;
+    background-color: rgb(240, 203, 134);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 24px;
+
+
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo > i{
+    margin-right: 24px;
+}
+
+
+.sidebar{
+    background-color: rgb(255, 242, 225);
+    grid-area: 2/1/3/2;
+    display: flex;
+    border-bottom-left-radius: 24px;
+    flex-direction: column;
+    padding: 18px;
+
+}
+.sidebar > *{
+    flex-basis: 30%;
+}
+
+.default-projects-list, .projects-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.default-projects-list{
+
+}
+.projects-title{
+    color: rgb(109, 109, 109);
+    font-size: 24px;
+}
+
+
+button{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    background-color: rgb(255, 242, 225);
+    font-size: 18px;
+    color: rgb(143, 143, 143);
+    font-weight: 600;
+
+}
+
+.todo-container{
+    padding: 24px;
+    grid-area: 2/2/3/3;
+    display: flex;
+    flex-direction: column;
+}
+.todo-container > div{
+    flex-basis: 10%;
+}
+
+.task{
+    padding: 4px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 242, 225);
+    border-radius: 4px;
+
+}
+
+.task > h1{
+    color: rgb(109, 109, 109);
+    margin-left: 4px;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+
