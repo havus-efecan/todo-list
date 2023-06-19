@@ -2,10 +2,10 @@ html,body{
     height: 100%;
     margin: 0;
 
-    
-
-    
 }
+
+
+
 body{
     background: hsla(337, 65%, 78%, 1);
     background: linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);
@@ -17,6 +17,43 @@ body{
     align-items: center;
 }
 
+input[type="checkbox"] {
+    position: relative;
+    appearance: none;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    border: 2px solid rgb(240, 203, 134);
+
+
+  }
+
+  input[type="checkbox"]::before {
+    content: " ";
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-size: 1.2em;
+    visibility: hidden;
+  }
+  input[type="checkbox"]:hover{
+    background-color: rgb(21, 172, 71);
+
+  }
+ 
+  
+  input[type="checkbox"]:checked::before {
+    /* Use `visibility` instead of `display` to avoid recalculating layout */
+    visibility: visible;
+  }
+  
+  input[type="checkbox"]:disabled {
+    border-color: black;
+    background: #ddd;
+    color: gray;
+  }
+
 h1{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 42px;
@@ -24,8 +61,8 @@ h1{
 }
 
 .main-container{
-    height: 70%;
-    width: 60%;
+    height: 700px;
+    width: 1000px;
     background-color: rgb(255, 255, 255);
     border-radius: 24px;
 
@@ -45,6 +82,7 @@ h1{
     justify-content: flex-start;
     align-items: center;
     padding-left: 24px;
+     box-sizing: border-box;
 
 
 
@@ -82,9 +120,7 @@ h1{
 
 }
 
-.default-projects-list{
 
-}
 .projects-title{
     color: rgb(109, 109, 109);
     font-size: 24px;
@@ -98,35 +134,103 @@ button{
     font-size: 18px;
     color: rgb(143, 143, 143);
     font-weight: 600;
+    cursor: pointer;
 
 }
 
 .todo-container{
+    height: 100%;
+    width: 100%;
     padding: 24px;
     grid-area: 2/2/3/3;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template: 0.25fr 1fr/1fr;
+    box-sizing: border-box;
 }
 .todo-container > div{
     flex-basis: 10%;
 }
 
 .task{
-    padding: 4px;
+    padding: 12px;
     margin: 8px;
     display: flex;
     align-items: center;
     background-color: rgb(255, 242, 225);
     border-radius: 4px;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 24px;
+    width: 700px;
+    height: 150px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.task *{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.task-left{
+    display: flex;
+    align-items: center;
+    
 
 }
 
-.task > h1{
+.task-center{
+    overflow: hidden;
+    text-overflow:ellipsis; 
+    width: 400px;
+    display: flex;
+    margin-left: 24px;
+}
+
+.task-center p{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis; 
+  color: rgb(143, 143, 143);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.task-right{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.task h1{
     color: rgb(109, 109, 109);
     margin-left: 4px;
     font-size: 24px;
     font-weight: 500;
 
 }
+
+.task h2 {
+    color: rgb(143, 143, 143);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.add-task{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+}
+
+.add-task h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    color: rgb(109, 109, 109);
+
+}
+
+
 
 

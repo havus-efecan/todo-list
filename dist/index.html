@@ -8,7 +8,6 @@
         <title>Todo</title>
 </head>
 <body>
-<script src="bundle.js"></script>
     <div class="main-container">
         <div class="header">
             <div class="logo">
@@ -35,7 +34,7 @@
             </div>
             <div class='projects-list'>
                 <h1 class="projects-title">Projects</h1>
-                <button>
+                <button class="add-project-button">
                 <i class="fa-solid fa-circle-plus"></i>
                 Add Project
                 </button>
@@ -44,20 +43,31 @@
             
         </div>
         <div class="todo-container">
-            <div class="task">
-                <input class="checkbox" type="checkbox" checked="checked">
-                <h1>Task 1...</h1> 
-            </div>
-            <div class="task">
-                <input class="checkbox" type="checkbox" checked="checked">
-                <h1>Task 2...</h1>
-            </div>
-            <div class="task">
-                <input class="checkbox" type="checkbox" checked="checked">
-                <h1>Task 3...</h1>
+            
+            <!-- <div class="task">
+                <div class="task-left">
+                    <input class="checkbox" type="checkbox" >
+                    <h1>Task 1...</h1> 
+                </div>
+                <div class="task-center">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                </div>
+                <div class="task-right">
+                    <h2>12/08/2023</h2>
+                    <i class="fa-solid fa-eye" style="color:rgb(109, 109, 109);"></i>
+                    <i class="fa-solid fa-ellipsis-vertical" style="color:rgb(109, 109, 109);"></i>
+                </div>    
+
+            </div> -->
+           
+            <div class="add-task">
+                <i class="fa-solid fa-plus" style="color: rgb(109, 109, 109);"></i>
+                <h2>Add task</h2>
             </div>
         </div>
 
     </div>
+    <script src="bundle.js"></script>
+
 </body>
 </html>

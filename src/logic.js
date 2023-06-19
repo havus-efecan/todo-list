@@ -36,4 +36,18 @@ const projectFactory = () => {
 
 
 
+export function createToDo(title,description,dueDate,priority){
+    let newToDo = toDoFactory(title,description,dueDate,priority).toDoItem
+    return newToDo
+}
 
+function addExistingToDo(toDo,container){
+    container.push(toDo)
+}
+
+
+
+function createProject(title){
+    let newProject = projectFactory(title)
+    return newProject
+}

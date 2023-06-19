@@ -1,3 +1,18 @@
 import '../src/style.css';
+import { drawTask,addProjectButton} from './DOMstuff';
+import {createToDo} from './logic'
 
-import '../src/header-logo.png'
+
+ let task = createToDo("Mow the lawn", "self explanatory", "06/02/2023", "medium")
+
+ addProjectButton.addEventListener('click', ()=>{
+
+    drawTask(task)
+
+})
+
+
+
+
+
+
