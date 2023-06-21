@@ -43,7 +43,7 @@
             
         </div>
         <div class="todo-container">
-            
+            <div class="tasks"></div>
             <!-- <div class="task">
                 <div class="task-left">
                     <input class="checkbox" type="checkbox" >
@@ -61,13 +61,48 @@
             </div> -->
            
             <div class="add-task">
-                <i class="fa-solid fa-plus" style="color: rgb(109, 109, 109);"></i>
-                <h2>Add task</h2>
+                <button class="add-task-button">
+                    <i class="fa-solid fa-plus" style="color: rgb(32, 32, 32);"></i>
+                    <h2>Add task</h2>
+                </button>
+                
             </div>
         </div>
 
     </div>
-    <script src="bundle.js"></script>
 
+
+
+    <div id="modal-overlay">
+        <div id="modal-content">
+            <div class="modal-header">  
+                <h1>New task</h1>
+            </div>
+            <div class="modal-form">
+                <form>
+                    <input id="task-name" placeholder="task name">
+                    <textarea id="task-description" name="user_message" placeholder=" description"></textarea>
+                    <input id="task-date" type="date">
+                </form>
+                <div class="priority-select">
+                    <h1>Priority:</h1>
+                    <form id="radio-form">
+                        <input type="radio" id="prio-low" name="prio" checked>
+                        <input type="radio" id="prio-med" name="prio">
+                        <input type="radio" id="prio-high" name="prio">
+                    </form>
+                  </div>
+                <button class="submit-task-button">
+                    <i class="fa-solid fa-plus fa-2x" style="color: rgb(255, 255, 255);"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="bundle.js"></script>
 </body>
 </html>

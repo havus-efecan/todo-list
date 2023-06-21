@@ -1,6 +1,6 @@
-let inbox,today,thisWeek,projects = []
+let today,thisWeek,projects = []
 
-
+export let inbox = []
 
 
 const toDoFactory = (title,description,dueDate,priority) => {

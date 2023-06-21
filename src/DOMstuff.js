@@ -1,8 +1,14 @@
 const mainContainer = document.querySelector('.main-container')
 const header = document.querySelector('.header')
 const sidebar = document.querySelector('.sidebar')
-export const todoContainer = document.querySelector('.todo-container')
+export const taskContainer = document.querySelector('.tasks')
 export const addProjectButton = document.querySelector('.add-project-button')
+export const addTaskButton = document.querySelector('.add-task-button')
+
+export const modalOverlay = document.querySelector('#modal-overlay')
+export const submitButton = document.querySelector('.submit-task-button')
+
+
 
 export function drawTask(toDo){
 
@@ -58,7 +64,7 @@ export function drawTask(toDo){
     taskDiv.appendChild(taskCenter)
     taskDiv.appendChild(taskRight)
 
-    todoContainer.appendChild(taskDiv)
+    taskContainer.appendChild(taskDiv)
 
     edit.addEventListener('click',()=>{
         const clickedElement = event.target
@@ -76,3 +82,46 @@ function eraseTask(clickedElement){
 
 function drawProjects(){
 }
+
+
+addTaskButton.addEventListener('click', ()=>{
+
+    modalOverlay.style.display = 'flex'
+
+
+})
+
+
+
+export function gatherTaskInfo(){
+
+    let taskName = document.querySelector('#task-name').value
+    let taskDescription = document.querySelector('#task-description').value
+    let taskDate = document.querySelector('#task-date').value
+    let taskPrioLow = document.querySelector('#prio-low')
+    let taskPrioMed = document.querySelector('#prio-med')
+    let taskPrioHigh = document.querySelector('#prio-high')
+
+    let prio
+
+    if(taskPrioLow.checked){
+        prio = 'low'
+    } else if (taskPrioMed.checked){
+        prio = 'med'
+    } else if (taskPrioHigh.checked){
+        prio = 'high'
+    }
+
+    const taskInfo = {
+
+        taskName : taskName,
+        taskDescription : taskDescription,
+        taskDate : taskDate,
+        taskPrio : prio
+
+    }
+
+    return taskInfo
+
+}
+
