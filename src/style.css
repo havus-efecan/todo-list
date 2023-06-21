@@ -118,6 +118,21 @@ h1{
     width: 90%;
     text-align: start;
 }
+.user-projects{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.user-projects button{
+    height: 42px;
+    width: 90%;
+}
+.user-projects button:hover{
+    background-color: rgb(240, 203, 134);
+
+}
 
 
 .highlighted{
@@ -127,18 +142,30 @@ h1{
 
 
 
-.default-projects-list, .projects-list{
+.default-projects-list{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
 
 }
+.projects-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
 
 .default-projects-list > *:hover{
 
     background-color: rgb(240, 203, 134);
 
+}
+
+.project-name-input{
+    display: none;
 }
 
 
@@ -396,6 +423,48 @@ ul>div:hover{
       margin: 12px 2px;
   }
 
+  .projects-list input{
+    border: none;
+    border-bottom: solid rgb(207, 150, 44) 1px;
+    margin: 12px 2px;
+    background-color: rgb(255, 242, 225);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 150px;
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+    font-weight: 300;
+
+  }
+
+  .project-name-input{
+    display: none;
+    gap:8px;
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  .project-name-input-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+
+  }
+
+
+.project-name-input-buttons > :nth-child(1){
+    
+    color: rgb(13, 148, 13);
+
+  }
+  .project-name-input-buttons > :nth-child(2){
+    
+    color: rgb(201, 20, 20);
+
+  }
+
+
+ 
 
   form > input{
       font-size: 24px;
