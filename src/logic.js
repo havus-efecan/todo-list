@@ -2,6 +2,8 @@ let today,thisWeek,projects = []
 
 export let inbox = []
 
+let currentContainer = inbox
+
 
 const toDoFactory = (title,description,dueDate,priority) => {
 

@@ -2,12 +2,30 @@ const mainContainer = document.querySelector('.main-container')
 const header = document.querySelector('.header')
 const sidebar = document.querySelector('.sidebar')
 export const taskContainer = document.querySelector('.tasks')
+export const defaultProjects = document.querySelector('.default-projects-list')
+
 export const addProjectButton = document.querySelector('.add-project-button')
 export const addTaskButton = document.querySelector('.add-task-button')
 
 export const modalOverlay = document.querySelector('#modal-overlay')
 export const submitButton = document.querySelector('.submit-task-button')
 
+
+
+
+
+    for(let i = 0; i < defaultProjects.children.length;i++){
+        defaultProjects.children[i].addEventListener('click', ()=>{
+
+            for(let j = 0; j < defaultProjects.children.length;j++){
+                defaultProjects.children[j].classList.remove('highlighted');
+            }
+  
+            defaultProjects.children[i].classList.add('highlighted');
+    });
+    }
+    
+  
 
 
 export function drawTask(toDo){
@@ -38,13 +56,13 @@ export function drawTask(toDo){
     const viewDetails = document.createElement('i')
     viewDetails.classList.add('fa-solid')
     viewDetails.classList.add('fa-eye')
-    viewDetails.style.color = 'color:rgb(109, 109, 109);'
+    viewDetails.style = 'color:rgb(109, 109, 109);'
 
 
-    const edit = document.createElement('i')
-    edit.classList.add('fa-solid')
-    edit.classList.add('fa-ellipsis-vertical')
-    edit.style.color = 'color:rgb(109, 109, 109);'
+    const garbageButton = document.createElement('i')
+    garbageButton.classList.add('fa-solid')
+    garbageButton.classList.add('fa-trash')
+    garbageButton.style = 'color:rgb(109, 109, 109);'
 
 
     const date = document.createElement('h2')
@@ -52,8 +70,7 @@ export function drawTask(toDo){
 
     taskRight.appendChild(date)
     taskRight.appendChild(viewDetails)
-    taskRight.appendChild(edit)
-
+    taskRight.appendChild(garbageButton)
 
     taskDiv.classList.add('task')
     taskLeft.classList.add('task-left')
@@ -64,11 +81,11 @@ export function drawTask(toDo){
     taskDiv.appendChild(taskCenter)
     taskDiv.appendChild(taskRight)
 
+
     taskContainer.appendChild(taskDiv)
 
-    edit.addEventListener('click',()=>{
-        const clickedElement = event.target
-        eraseTask(clickedElement)
+    garbageButton.addEventListener('click',()=>{
+        eraseTask(event.target)
     })
 
 }
@@ -124,4 +141,7 @@ export function gatherTaskInfo(){
     return taskInfo
 
 }
+
+
+
 
