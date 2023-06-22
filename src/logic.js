@@ -1,8 +1,20 @@
-let today,thisWeek,projects = []
+let thisWeek = []
+let today = []
 
 export let inbox = []
 
-let currentContainer = inbox
+export let projectsMap = new Map([
+    
+    [" Inbox", inbox],
+    [" Today", today],
+    [" This Week", thisWeek]
+
+
+])
+
+export function getProjectsMap(){
+    return projectsMap
+}
 
 
 const toDoFactory = (title,description,dueDate,priority) => {
@@ -17,23 +29,6 @@ const toDoFactory = (title,description,dueDate,priority) => {
     return {toDoItem}
 }
 
-const projectFactory = () => {
-
-    let project = {
-        
-        todoItems : [],
-        itemCount : 0,
-
-        addItemToProject : function(toDoItem){
-            this.todoItems.push(toDoItem)
-            this.itemCount++
-        }
-
-        
-      };
-
-      return {project}
-}
 
 
 
@@ -43,13 +38,24 @@ export function createToDo(title,description,dueDate,priority){
     return newToDo
 }
 
-function addExistingToDo(toDo,container){
+export function addToContainer(toDo,container){
+
     container.push(toDo)
 }
 
 
 
-function createProject(title){
-    let newProject = projectFactory(title)
+export function createProject(title){
+    let newProject = []
     return newProject
+}
+
+
+function isTaskDueToday(){
+
+}
+
+
+function isTaskDueThisWeek(){
+    
 }

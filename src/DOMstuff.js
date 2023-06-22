@@ -1,4 +1,4 @@
-import { addProjectEventListeners } from "./index"
+import { addProjectEventListeners,displayProjectTasks,removeTask } from "./index"
 
 const mainContainer = document.querySelector('.main-container')
 const header = document.querySelector('.header')
@@ -14,6 +14,7 @@ export const modalOverlay = document.querySelector('#modal-overlay')
 export const submitButton = document.querySelector('.submit-task-button')
 
 export const confirmProjectButton = document.querySelector('.confirm-project') 
+export const cancelProjectButton = document.querySelector('.cancel-project')
 export const projectNameInput = document.querySelector('.project-name-input-field')
 
 
@@ -31,15 +32,7 @@ export function drawNewProjectContainer(name){
     userProjectContainer.appendChild(newProjectContainer)
     projectNameDiv.style.display = 'none'
     projectList.push(newProjectContainer)
-//     newProjectContainer.addEventListener('click',()=>{
-    
-//         for(let j = 0; j < projects.children.length;j++){
-//             projectList[j].classList.remove('highlighted');
-//         }
-  
-//         newProjectContainer.classList.add('highlighted');
 
-// })
 
 for(let i = 0; i < projectList.length;i++){
     projectList[i].addEventListener('click', ()=>{
@@ -51,10 +44,20 @@ for(let i = 0; i < projectList.length;i++){
   
         projectList[i].classList.add('highlighted');
 
+        hideProjects()
+        displayProjectTasks(projectList[i].innerText)
+
 });
 }
 }    
-  
+
+function hideProjects(){
+    let length = taskContainer.children.length
+    for(let i = 0; i < length;i++){
+        taskContainer.children[0].remove()
+    }
+}
+
 
 
 export function getProjectName(){
@@ -62,6 +65,12 @@ export function getProjectName(){
     projectNameDiv.style.display = 'flex'
 
 }
+
+
+cancelProjectButton.addEventListener('click',()=>{
+    projectNameDiv.style.display = 'none'
+})
+
 
 export function drawTask(toDo){
 
@@ -120,6 +129,7 @@ export function drawTask(toDo){
     taskContainer.appendChild(taskDiv)
 
     garbageButton.addEventListener('click',()=>{
+        removeTask(toDo,getCurrentContainer())
         eraseTask(event.target)
     })
 
@@ -132,8 +142,7 @@ function eraseTask(clickedElement){
 
 }
 
-function drawProjects(){
-}
+
 
 
 addTaskButton.addEventListener('click', ()=>{
@@ -179,5 +188,13 @@ export function gatherTaskInfo(){
 }
 
 
+export function getCurrentContainer(){
+        for(let i = 0; i < projectList.length;i++){
+            if(projectList[i].classList.contains('highlighted') && i != 1 && i != 2){
+                return projectList[i].innerText
+            }
+        }
+        return 'Inbox'
+}
 
 
