@@ -51,7 +51,7 @@ for(let i = 0; i < projectList.length;i++){
 }
 }    
 
-function hideProjects(){
+export function hideProjects(){
     let length = taskContainer.children.length
     for(let i = 0; i < length;i++){
         taskContainer.children[0].remove()

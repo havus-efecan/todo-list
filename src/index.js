@@ -1,6 +1,6 @@
 import '../src/style.css';
-import { drawTask,getCurrentContainer,cancelProjectButton,projects,projectList,confirmProjectButton,projectNameInput,addProjectButton,drawNewProjectContainer,getProjectName,addTaskButton,modalOverlay,submitButton,gatherTaskInfo} from './DOMstuff';
-import {addToContainer,createToDo,inbox,createProject, projectsMap,getProjectsMap} from './logic'
+import { drawTask,hideProjects,getCurrentContainer,cancelProjectButton,projects,projectList,confirmProjectButton,projectNameInput,addProjectButton,drawNewProjectContainer,getProjectName,addTaskButton,modalOverlay,submitButton,gatherTaskInfo} from './DOMstuff';
+import {addToContainer,isTaskDueToday,isTaskDueThisWeek,createToDo,inbox,createProject, projectsMap,getProjectsMap} from './logic'
 
 
 
@@ -12,15 +12,31 @@ submitButton.addEventListener('click',()=>{
     let task = createToDo(taskInfo.taskName,taskInfo.taskDescription,taskInfo.taskDate,taskInfo.prio)
     let currentContainer = getCurrentContainer()
 
-    if(projectsMap.size <= 3){
-        addToContainer(task,inbox)
-
-    } else {
-        currentContainer = projectsMap.get(currentContainer)
-        addToContainer(task,currentContainer)
-    }
     
-    drawTask(task)
+        
+        currentContainer = projectsMap.get(currentContainer)
+        if(currentContainer === " Today" || currentContainer === " This week"){
+            addToContainer(task," Inbox")
+
+        } else {
+            addToContainer(task,currentContainer)
+            drawTask(task)
+
+        }
+    
+    
+    if(isTaskDueToday(task)){
+        addToContainer(task,projectsMap.get(" Today"))
+       let x = getProjectsMap()
+    }
+
+    if(isTaskDueThisWeek(task)){
+
+        addToContainer(task,projectsMap.get(" This week"))
+        let y = getProjectsMap()
+
+    }
+
 
     modalOverlay.style.display = 'none'
 
@@ -38,6 +54,8 @@ export function addProjectEventListeners(){
             }
       
             projectList[i].classList.add('highlighted');
+            hideProjects()
+
             displayProjectTasks(projectList[i].innerText)
             
     });

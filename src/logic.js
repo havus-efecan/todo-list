@@ -7,7 +7,7 @@ export let projectsMap = new Map([
     
     [" Inbox", inbox],
     [" Today", today],
-    [" This Week", thisWeek]
+    [" This week", thisWeek]
 
 
 ])
@@ -50,12 +50,45 @@ export function createProject(title){
     return newProject
 }
 
+    const date = new Date()
+    let day = date.getDay()
+    let month = date.getMonth()
+    let year = date.getFullYear()
 
-function isTaskDueToday(){
+
+export function isTaskDueToday(toDo){
+
+
+   let fullDate = date.toISOString().slice(0,10)
+    if(toDo.dueDate == fullDate){
+        return true
+    }
+
+    return false
 
 }
 
 
-function isTaskDueThisWeek(){
+export function isTaskDueThisWeek(toDo){
+
+
+    let fullDate = date.toISOString().slice(0,10)
+
+    let userDate = new Date(toDo.dueDate)
+
+    let difference = userDate - date
+    var differenceInDays = Math.floor(difference / (1000 * 60 * 60 * 24));
+    var isWithinWeek = Math.abs(differenceInDays) <= 7;
+
+
+
+
     
+    if(isWithinWeek ){
+        return true
+    }
+
+    return false
+
 }
+    

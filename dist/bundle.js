@@ -1104,6 +1104,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   gatherTaskInfo: () => (/* binding */ gatherTaskInfo),
 /* harmony export */   getCurrentContainer: () => (/* binding */ getCurrentContainer),
 /* harmony export */   getProjectName: () => (/* binding */ getProjectName),
+/* harmony export */   hideProjects: () => (/* binding */ hideProjects),
 /* harmony export */   modalOverlay: () => (/* binding */ modalOverlay),
 /* harmony export */   projectList: () => (/* binding */ projectList),
 /* harmony export */   projectNameInput: () => (/* binding */ projectNameInput),
@@ -1345,15 +1346,31 @@ _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.submitButton.addEventListener('click',()=
     let task = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.createToDo)(taskInfo.taskName,taskInfo.taskDescription,taskInfo.taskDate,taskInfo.prio)
     let currentContainer = (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.getCurrentContainer)()
 
-    if(_logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.size <= 3){
-        (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,_logic__WEBPACK_IMPORTED_MODULE_2__.inbox)
-
-    } else {
-        currentContainer = _logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(currentContainer)
-        ;(0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,currentContainer)
-    }
     
-    (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.drawTask)(task)
+        
+        currentContainer = _logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(currentContainer)
+        if(currentContainer === " Today" || currentContainer === " This week"){
+            (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task," Inbox")
+
+        } else {
+            (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,currentContainer)
+            ;(0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.drawTask)(task)
+
+        }
+    
+    
+    if((0,_logic__WEBPACK_IMPORTED_MODULE_2__.isTaskDueToday)(task)){
+        (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,_logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(" Today"))
+       let x = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.getProjectsMap)()
+    }
+
+    if((0,_logic__WEBPACK_IMPORTED_MODULE_2__.isTaskDueThisWeek)(task)){
+
+        (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,_logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(" This week"))
+        let y = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.getProjectsMap)()
+
+    }
+
 
     _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.modalOverlay.style.display = 'none'
 
@@ -1371,6 +1388,8 @@ function addProjectEventListeners(){
             }
       
             _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.projectList[i].classList.add('highlighted');
+            (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.hideProjects)()
+
             displayProjectTasks(_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.projectList[i].innerText)
             
     });
@@ -1468,6 +1487,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   createToDo: () => (/* binding */ createToDo),
 /* harmony export */   getProjectsMap: () => (/* binding */ getProjectsMap),
 /* harmony export */   inbox: () => (/* binding */ inbox),
+/* harmony export */   isTaskDueThisWeek: () => (/* binding */ isTaskDueThisWeek),
+/* harmony export */   isTaskDueToday: () => (/* binding */ isTaskDueToday),
 /* harmony export */   projectsMap: () => (/* binding */ projectsMap)
 /* harmony export */ });
 let thisWeek = []
@@ -1479,7 +1500,7 @@ let projectsMap = new Map([
     
     [" Inbox", inbox],
     [" Today", today],
-    [" This Week", thisWeek]
+    [" This week", thisWeek]
 
 
 ])
@@ -1522,15 +1543,49 @@ function createProject(title){
     return newProject
 }
 
+    const date = new Date()
+    let day = date.getDay()
+    let month = date.getMonth()
+    let year = date.getFullYear()
 
-function isTaskDueToday(){
+
+function isTaskDueToday(toDo){
+
+
+   let fullDate = date.toISOString().slice(0,10)
+    if(toDo.dueDate == fullDate){
+        return true
+    }
+
+    return false
 
 }
 
 
-function isTaskDueThisWeek(){
+function isTaskDueThisWeek(toDo){
+
+
+    let fullDate = date.toISOString().slice(0,10)
+
+    let userDate = new Date(toDo.dueDate)
+
+    let difference = userDate - date
+    var differenceInDays = Math.floor(difference / (1000 * 60 * 60 * 24));
+    var isWithinWeek = Math.abs(differenceInDays) <= 7;
+
+
+
+
     
+    if(isWithinWeek ){
+        return true
+    }
+
+    return false
+
 }
+    
+
 
 /***/ })
 
