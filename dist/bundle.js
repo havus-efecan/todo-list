@@ -370,6 +370,7 @@ ul>div:hover{
 .add-task{
     display: flex;
     justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     gap: 4px;
     grid-area: 2/1/3/2;
@@ -390,7 +391,7 @@ ul>div:hover{
 }
 
 .tasks{
-    max-height: 430px;
+    max-height: 460px;
     overflow-y: auto;
 }
 
@@ -448,6 +449,52 @@ ul>div:hover{
       width: 75%;
       gap: 8px;
   }
+
+  #modal-overlay-2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #modal-content-2{
+    background-color: #fff;
+    border-radius: 4px;
+    height: 200px;
+    width: 500px;
+    display: grid;
+    grid-template: 0.2fr 1fr/1fr;
+  }
+
+  .modal-delete-project{
+      display: flex;
+      flex-direction: column;
+      padding: 12px;
+      gap: 48px;
+      justify-content: center;
+
+
+
+  }
+
+  .modal-delete-project > h1{
+    color:rgb(110, 110, 110) ;
+    font-size: 24px;
+  }
+  .project-delete-buttons{
+      display: flex;
+      justify-content: space-evenly;
+      
+  }
+
+
+
   form > input, form > textarea{
       border: none;
       border-bottom: solid rgb(207, 150, 44) 1px;
@@ -640,7 +687,7 @@ input[type="radio"]{
 
 
 
-`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["html,body{\n    height: 100%;\n    margin: 0;\n\n}\n\n\n\nbody{\n    background: hsla(337, 65%, 78%, 1);\n    background: linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);\n    background: -moz-linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);\n    background: -webkit-linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);\n\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\ninput[type=\"checkbox\"] {\n    position: relative;\n    appearance: none;\n    width: 1.5em;\n    height: 1.5em;\n    border-radius: 50%;\n    border: 2px solid rgb(240, 203, 134);\n\n\n  }\n\n  input[type=\"checkbox\"]::before {\n    content: \" \";\n    border-radius: 50%;\n    height: 100%;\n    width: 100%;\n    position: absolute;\n    font-size: 1.2em;\n    visibility: hidden;\n  }\n  input[type=\"checkbox\"]:hover{\n    background-color: rgb(21, 172, 71);\n\n  }\n \n  \n  input[type=\"checkbox\"]:checked::before {\n    /* Use `visibility` instead of `display` to avoid recalculating layout */\n    visibility: visible;\n  }\n  \n  input[type=\"checkbox\"]:disabled {\n    border-color: black;\n    background: #ddd;\n    color: gray;\n  }\n\nh1{\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    font-size: 42px;\n    color: rgb(255, 255, 255);\n}\n\n.main-container{\n    height: 700px;\n    width: 1000px;\n    background-color: rgb(255, 255, 255);\n    border-radius: 24px;\n\n    display: grid;\n\n    grid-template: 0.2fr 1fr/ 0.3fr 1fr;\n\n}\n\n\n.header{\n    grid-area: 1/1/2/3;\n    display: flex;\n    background-color: rgb(240, 203, 134);\n    border-top-left-radius: 24px;\n    border-top-right-radius: 24px;\n    justify-content: flex-start;\n    align-items: center;\n    padding-left: 24px;\n    box-sizing: border-box;\n\n\n\n}\n.logo{\n    display: flex;\n    flex-direction: row;\n    flex-basis: 50%;\n    justify-content: flex-start;\n    align-items: center;\n}\n.logo > i{\n    margin-right: 24px;\n}\n\n\n.sidebar{\n    background-color: rgb(255, 242, 225);\n    grid-area: 2/1/3/2;\n    display: flex;\n    border-bottom-left-radius: 24px;\n    flex-direction: column;\n    padding: 18px;\n\n}\n.sidebar > *{\n\n    flex-basis: 30%;\n}\n\n.sidebar button{\n    height: 42px;\n    width: 90%;\n    text-align: start;\n}\n.user-projects{\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-start;\n    width: 100%;\n    gap:10px;\n    max-height: 250px;\n    overflow-y: auto;\n    flex-shrink: 0\n}\n\n\n.user-projects button{\n    height: 42px;\n    min-height: 42px;\n    width: 90%;\n\n}\n.user-projects button:hover{\n    background-color: rgb(240, 203, 134);\n\n}\n\n\n.highlighted{\n    background-color: rgb(240, 203, 134);\n    border-radius: 4px;\n}\n\n\n\n.default-projects-list{\n    display: flex;\n    flex-direction: column;\n    justify-content: space-evenly;\n    align-items: flex-start;\n\n\n}\n.projects-list{\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-start;\n    align-items: flex-start;\n\n}\n\n\n.default-projects-list > *:hover{\n\n    background-color: rgb(240, 203, 134);\n\n}\n\n.project-name-input{\n    display: none;\n}\n\n\n\n.projects-title{\n    color: rgb(109, 109, 109);\n    font-size: 24px;\n}\n\n\n\n\nbutton{\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    border: none;\n    background-color: rgb(255, 242, 225);\n    font-size: 18px;\n    color: rgb(143, 143, 143);\n    font-weight: 600;\n    cursor: pointer;\n    transition: background-color 0.2s;\n\n}\n\n.todo-container{\n    height: 100%;\n    width: 100%;\n    padding: 24px;\n    grid-area: 2/2/3/3;\n    display: flex;\n    flex-direction: column;\n    /* grid-template: 0.25fr 1fr/1fr; */\n    box-sizing: border-box;\n\n}\n.todo-container > div{\n}\n\n.task{\n    padding: 12px;\n    margin: 8px;\n    display: flex;\n    align-items: center;\n    background-color: rgb(255, 242, 225);\n    border-radius: 4px;\n    justify-content: space-between;\n    padding-left: 12px;\n    padding-right: 24px;\n    width: 650px;\n    height: 75px;\n    white-space: nowrap;\n    box-sizing: border-box;\n    transition: box-shadow 0.12s;\n}\n\n.task:hover{\n    box-shadow: 5px 1px 15px -7px rgba(0,0,0,0.32);\n}\n\n.task *{\n    margin-top: 0px;\n    margin-bottom: 0px;\n}\n\n.task-left{\n    display: flex;\n    align-items: center;\n    \n\n}\n\n.task-center{\n    overflow: hidden;\n    text-overflow:ellipsis; \n    width: 400px;\n    display: flex;\n    margin-left: 24px;\n}\n\n.task-center p{\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow:ellipsis; \n  color: rgb(143, 143, 143);\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n\n\n}\n\n.task-right{\n    display: flex;\n    align-items: center;\n    gap: 18px;\n}\n\n\ni{\n    cursor: pointer;\n}\n\ni:hover{\n    color: rgb(190, 125, 71) !important;\n}\n\n\n\n\n\n\nul{\n    position: relative;\n    top: 24px;\n    right: 64px;\n    gap: 4px;\n    display: flex;\n    flex-direction: column;\n}\n\nul > div{\n\n    \n    background-color: rgb(240, 203, 134);\n    color: rgb(255, 255, 255);\n    font-weight: 500;\n    height: 20px;\n    width: 50px;\n    border-radius: 4px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    font-size: 12px;\n    padding-left: 8px;\n    list-style: none;\n    position: relative;\n    display: flex;\n    justify-content: flex-start;\n    align-items: center;\n    cursor: pointer;\n\n    \n}\n\n.dropdown-container{\n    \n    position: relative;\n    width: 0;\n    height: 0;\n\n}\n\n\nul>div:hover{\n    background-color: rgb(240, 210, 156);\n\n}\n\n\n\n.task h1{\n    color: rgb(109, 109, 109);\n    margin-left: 4px;\n    font-size: 24px;\n    font-weight: 500;\n\n}\n\n.task h2 {\n    color: rgb(143, 143, 143);\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    font-size: 18px;\n}\n\n.add-task{\n    display: flex;\n    justify-content: flex-start;\n    align-items: center;\n    gap: 4px;\n    grid-area: 2/1/3/2;\n}\n\n.add-task-button{\n    background-color: white;\n    display: flex;\n    align-items: center;\n    gap: 8px;\n}\n\n.add-task h2{\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    font-size: 24px;\n    color: rgb(109, 109, 109);\n\n}\n\n.tasks{\n    max-height: 430px;\n    overflow-y: auto;\n}\n\n#modal-overlay {\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-color: rgba(0, 0, 0, 0.5);\n    display: none;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n  }\n\n  #modal-content {\n    background-color: #fff;\n    border-radius: 4px;\n    height: 450px;\n    width: 600px;\n    display: grid;\n    grid-template: 0.2fr 1fr/1fr;\n  }\n\n  .modal-header{\n      display: flex;\n      align-items: center;\n      grid-area: 1/1/2/2;\n      background-color: rgb(240, 203, 134);\n      border-top-left-radius: 4px;\n      border-top-right-radius: 4px;\n\n  }\n  .modal-header h1{\n      font-size: 32px;\n      margin: 0;\n      margin-left: 12px;\n      margin-top: 12px;\n      margin-bottom: 12px;\n      \n  }\n\n  .modal-form{\n      display: flex;\n      justify-content: flex-start;\n      padding: 24px;\n      flex-direction: column;\n  }\n\n  .modal-form > form{\n      display: flex;\n      flex-direction: column;\n      justify-content: flex-start;\n      width: 75%;\n      gap: 8px;\n  }\n  form > input, form > textarea{\n      border: none;\n      border-bottom: solid rgb(207, 150, 44) 1px;\n      margin: 12px 2px;\n  }\n\n  .projects-list input{\n    border: none;\n    border-bottom: solid rgb(207, 150, 44) 1px;\n    margin: 12px 2px;\n    background-color: rgb(255, 242, 225);\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    width: 75%;\n    color: rgb(110, 110, 110);\n    font-size: 16px;\n    font-weight: 300;\n\n  }\n\n  .project-name-input{\n    display: none;\n    gap:8px;\n    font-weight: 300;\n    font-size: 16px;\n  }\n\n  .project-name-input-buttons{\n    display: flex;\n    flex-direction: column;\n    gap: 4px;\n\n\n  }\n\n\n.project-name-input-buttons > :nth-child(1){\n    \n    color: rgb(13, 148, 13);\n\n  }\n  .project-name-input-buttons > :nth-child(2){\n    \n    color: rgb(201, 20, 20);\n\n  }\n\n\n \n\n  form > input{\n      font-size: 24px;\n      \n  }\n\nform > textarea{\n      font-size: 18px;\n      height: 48px;\n      \n  }\nform > input[type='date']{\n    color: rgb(131, 131, 131);\n    width: 50%;\n}\n\n.priority-select{\n    margin-top: 12px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    color: rgb(131, 131, 131);\n    font-size: 24px;\n    display: flex;\n    align-items: center;\n    gap: 12px;\n}\n\n.submit-task-button{\n    height: 60px;\n    width: 60px;\n    align-self: flex-end;\n    background-color: white;\n    border: solid 2px rgb(255, 255, 255);\n    background-color: rgb(240, 203, 134);\n    border-radius: 50%;\n    margin-right: 8px;\n    box-shadow: 5px 5px 13px 3px rgba(0,0,0,0.23);\n    border: none;\n    transition: box-shadow 0.2s;\n\n}\n\n.submit-task-button:active{\n    box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.23);\n\n    \n}\n\n\n\ninput[type=\"radio\"]{\n    appearance: none;\n    margin: 0;\n    height: 30px;\n    width: 55px;\n    border-radius: px;\n   \n  \n\n}\n\n#radio-form > input:nth-child(1){\n    height: 32px;\n    width: 32px;\n    border: solid 2px rgb(5, 163, 0);\n    color: rgb(5, 163, 0);\n    border-radius: 50%;\n    transition: background-color 0.2s;\n}\n\n#radio-form > input:nth-child(1):hover{\n   \n    background-color: rgb(5, 163, 0);\n    color: white;\n}\n#radio-form > input:nth-child(1):checked{\n   \n    background-color: rgb(5, 163, 0);\n    color: white;\n} \n\n\n#radio-form > input:nth-child(2){\n    height: 32px;\n    width: 32px;\n    border: solid 2px rgb(247, 203, 59);\n    border-radius: 50%;\n    color: rgb(247, 203, 59);\n    transition: background-color 0.2s;\n}  \n#radio-form > :nth-child(2):hover{\n   \n    background-color: rgb(247, 203, 59);\n    color: white;\n     \n }\n #radio-form > :nth-child(2):checked{\n   \n    background-color: rgb(247, 203, 59);\n    color: white;\n     \n } \n\n\n #radio-form > input:nth-child(3){\n    height: 32px;\n    width: 32px;\n    border: solid 2px rgb(199, 68, 68);\n    border-radius: 50%;\n    color: rgb(199, 68, 68);\n    transition: background-color 0.2s;\n\n}\n#radio-form > input:nth-child(3):hover{\n   \n    background-color: rgb(199, 68, 68);\n    color: white;\n     \n }\n #radio-form > input:nth-child(3):checked{\n   \n    background-color: rgb(199, 68, 68);\n    color: white;\n     \n } \n\n\n\n\n.priority-select > h1{\n    color:rgb(131, 131, 131) ;\n    font-weight: 400;\n    font-size: 24px;\n}\n\n\n\n::placeholder{\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    color:rgb(131, 131, 131) ;\n\n}\n\n\n\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"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","sourcesContent":["html,body{\n    height: 100%;\n    margin: 0;\n\n}\n\n\n\nbody{\n    background: hsla(337, 65%, 78%, 1);\n    background: linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);\n    background: -moz-linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);\n    background: -webkit-linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);\n\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\ninput[type=\"checkbox\"] {\n    position: relative;\n    appearance: none;\n    width: 1.5em;\n    height: 1.5em;\n    border-radius: 50%;\n    border: 2px solid rgb(240, 203, 134);\n\n\n  }\n\n  input[type=\"checkbox\"]::before {\n    content: \" \";\n    border-radius: 50%;\n    height: 100%;\n    width: 100%;\n    position: absolute;\n    font-size: 1.2em;\n    visibility: hidden;\n  }\n  input[type=\"checkbox\"]:hover{\n    background-color: rgb(21, 172, 71);\n\n  }\n \n  \n  input[type=\"checkbox\"]:checked::before {\n    /* Use `visibility` instead of `display` to avoid recalculating layout */\n    visibility: visible;\n  }\n  \n  input[type=\"checkbox\"]:disabled {\n    border-color: black;\n    background: #ddd;\n    color: gray;\n  }\n\nh1{\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    font-size: 42px;\n    color: rgb(255, 255, 255);\n}\n\n.main-container{\n    height: 700px;\n    width: 1000px;\n    background-color: rgb(255, 255, 255);\n    border-radius: 24px;\n\n    display: grid;\n\n    grid-template: 0.2fr 1fr/ 0.3fr 1fr;\n\n}\n\n\n.header{\n    grid-area: 1/1/2/3;\n    display: flex;\n    background-color: rgb(240, 203, 134);\n    border-top-left-radius: 24px;\n    border-top-right-radius: 24px;\n    justify-content: flex-start;\n    align-items: center;\n    padding-left: 24px;\n    box-sizing: border-box;\n\n\n\n}\n.logo{\n    display: flex;\n    flex-direction: row;\n    flex-basis: 50%;\n    justify-content: flex-start;\n    align-items: center;\n}\n.logo > i{\n    margin-right: 24px;\n}\n\n\n.sidebar{\n    background-color: rgb(255, 242, 225);\n    grid-area: 2/1/3/2;\n    display: flex;\n    border-bottom-left-radius: 24px;\n    flex-direction: column;\n    padding: 18px;\n\n}\n.sidebar > *{\n\n    flex-basis: 30%;\n}\n\n.sidebar button{\n    height: 42px;\n    width: 90%;\n    text-align: start;\n}\n.user-projects{\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-start;\n    width: 100%;\n    gap:10px;\n    max-height: 250px;\n    overflow-y: auto;\n    flex-shrink: 0\n}\n\n\n.user-projects button{\n    height: 42px;\n    min-height: 42px;\n    width: 90%;\n\n}\n.user-projects button:hover{\n    background-color: rgb(240, 203, 134);\n\n}\n\n\n.highlighted{\n    background-color: rgb(240, 203, 134);\n    border-radius: 4px;\n}\n\n\n\n.default-projects-list{\n    display: flex;\n    flex-direction: column;\n    justify-content: space-evenly;\n    align-items: flex-start;\n\n\n}\n.projects-list{\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-start;\n    align-items: flex-start;\n\n}\n\n\n.default-projects-list > *:hover{\n\n    background-color: rgb(240, 203, 134);\n\n}\n\n.project-name-input{\n    display: none;\n}\n\n\n\n.projects-title{\n    color: rgb(109, 109, 109);\n    font-size: 24px;\n}\n\n\n\n\nbutton{\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    border: none;\n    background-color: rgb(255, 242, 225);\n    font-size: 18px;\n    color: rgb(143, 143, 143);\n    font-weight: 600;\n    cursor: pointer;\n    transition: background-color 0.2s;\n\n}\n\n.todo-container{\n    height: 100%;\n    width: 100%;\n    padding: 24px;\n    grid-area: 2/2/3/3;\n    display: flex;\n    flex-direction: column;\n    /* grid-template: 0.25fr 1fr/1fr; */\n    box-sizing: border-box;\n\n}\n.todo-container > div{\n}\n\n.task{\n    padding: 12px;\n    margin: 8px;\n    display: flex;\n    align-items: center;\n    background-color: rgb(255, 242, 225);\n    border-radius: 4px;\n    justify-content: space-between;\n    padding-left: 12px;\n    padding-right: 24px;\n    width: 650px;\n    height: 75px;\n    white-space: nowrap;\n    box-sizing: border-box;\n    transition: box-shadow 0.12s;\n}\n\n.task:hover{\n    box-shadow: 5px 1px 15px -7px rgba(0,0,0,0.32);\n}\n\n.task *{\n    margin-top: 0px;\n    margin-bottom: 0px;\n}\n\n.task-left{\n    display: flex;\n    align-items: center;\n    \n\n}\n\n.task-center{\n    overflow: hidden;\n    text-overflow:ellipsis; \n    width: 400px;\n    display: flex;\n    margin-left: 24px;\n}\n\n.task-center p{\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow:ellipsis; \n  color: rgb(143, 143, 143);\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n\n\n}\n\n.task-right{\n    display: flex;\n    align-items: center;\n    gap: 18px;\n}\n\n\ni{\n    cursor: pointer;\n}\n\ni:hover{\n    color: rgb(190, 125, 71) !important;\n}\n\n\n\n\n\n\nul{\n    position: relative;\n    top: 24px;\n    right: 64px;\n    gap: 4px;\n    display: flex;\n    flex-direction: column;\n}\n\nul > div{\n\n    \n    background-color: rgb(240, 203, 134);\n    color: rgb(255, 255, 255);\n    font-weight: 500;\n    height: 20px;\n    width: 50px;\n    border-radius: 4px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    font-size: 12px;\n    padding-left: 8px;\n    list-style: none;\n    position: relative;\n    display: flex;\n    justify-content: flex-start;\n    align-items: center;\n    cursor: pointer;\n\n    \n}\n\n.dropdown-container{\n    \n    position: relative;\n    width: 0;\n    height: 0;\n\n}\n\n\nul>div:hover{\n    background-color: rgb(240, 210, 156);\n\n}\n\n\n\n.task h1{\n    color: rgb(109, 109, 109);\n    margin-left: 4px;\n    font-size: 24px;\n    font-weight: 500;\n\n}\n\n.task h2 {\n    color: rgb(143, 143, 143);\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    font-size: 18px;\n}\n\n.add-task{\n    display: flex;\n    justify-content: flex-start;\n    justify-content: space-between;\n    align-items: center;\n    gap: 4px;\n    grid-area: 2/1/3/2;\n}\n\n.add-task-button{\n    background-color: white;\n    display: flex;\n    align-items: center;\n    gap: 8px;\n}\n\n.add-task h2{\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    font-size: 24px;\n    color: rgb(109, 109, 109);\n\n}\n\n.tasks{\n    max-height: 460px;\n    overflow-y: auto;\n}\n\n#modal-overlay {\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-color: rgba(0, 0, 0, 0.5);\n    display: none;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n  }\n\n  #modal-content {\n    background-color: #fff;\n    border-radius: 4px;\n    height: 450px;\n    width: 600px;\n    display: grid;\n    grid-template: 0.2fr 1fr/1fr;\n  }\n\n  .modal-header{\n      display: flex;\n      align-items: center;\n      grid-area: 1/1/2/2;\n      background-color: rgb(240, 203, 134);\n      border-top-left-radius: 4px;\n      border-top-right-radius: 4px;\n\n  }\n  .modal-header h1{\n      font-size: 32px;\n      margin: 0;\n      margin-left: 12px;\n      margin-top: 12px;\n      margin-bottom: 12px;\n      \n  }\n\n  .modal-form{\n      display: flex;\n      justify-content: flex-start;\n      padding: 24px;\n      flex-direction: column;\n  }\n\n  .modal-form > form{\n      display: flex;\n      flex-direction: column;\n      justify-content: flex-start;\n      width: 75%;\n      gap: 8px;\n  }\n\n  #modal-overlay-2{\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-color: rgba(0, 0, 0, 0.5);\n    display: none;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n  }\n\n  #modal-content-2{\n    background-color: #fff;\n    border-radius: 4px;\n    height: 200px;\n    width: 500px;\n    display: grid;\n    grid-template: 0.2fr 1fr/1fr;\n  }\n\n  .modal-delete-project{\n      display: flex;\n      flex-direction: column;\n      padding: 12px;\n      gap: 48px;\n      justify-content: center;\n\n\n\n  }\n\n  .modal-delete-project > h1{\n    color:rgb(110, 110, 110) ;\n    font-size: 24px;\n  }\n  .project-delete-buttons{\n      display: flex;\n      justify-content: space-evenly;\n      \n  }\n\n\n\n  form > input, form > textarea{\n      border: none;\n      border-bottom: solid rgb(207, 150, 44) 1px;\n      margin: 12px 2px;\n  }\n\n  .projects-list input{\n    border: none;\n    border-bottom: solid rgb(207, 150, 44) 1px;\n    margin: 12px 2px;\n    background-color: rgb(255, 242, 225);\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    width: 75%;\n    color: rgb(110, 110, 110);\n    font-size: 16px;\n    font-weight: 300;\n\n  }\n\n  .project-name-input{\n    display: none;\n    gap:8px;\n    font-weight: 300;\n    font-size: 16px;\n  }\n\n  .project-name-input-buttons{\n    display: flex;\n    flex-direction: column;\n    gap: 4px;\n\n\n  }\n\n\n.project-name-input-buttons > :nth-child(1){\n    \n    color: rgb(13, 148, 13);\n\n  }\n  .project-name-input-buttons > :nth-child(2){\n    \n    color: rgb(201, 20, 20);\n\n  }\n\n\n \n\n  form > input{\n      font-size: 24px;\n      \n  }\n\nform > textarea{\n      font-size: 18px;\n      height: 48px;\n      \n  }\nform > input[type='date']{\n    color: rgb(131, 131, 131);\n    width: 50%;\n}\n\n.priority-select{\n    margin-top: 12px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    color: rgb(131, 131, 131);\n    font-size: 24px;\n    display: flex;\n    align-items: center;\n    gap: 12px;\n}\n\n.submit-task-button{\n    height: 60px;\n    width: 60px;\n    align-self: flex-end;\n    background-color: white;\n    border: solid 2px rgb(255, 255, 255);\n    background-color: rgb(240, 203, 134);\n    border-radius: 50%;\n    margin-right: 8px;\n    box-shadow: 5px 5px 13px 3px rgba(0,0,0,0.23);\n    border: none;\n    transition: box-shadow 0.2s;\n\n}\n\n.submit-task-button:active{\n    box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.23);\n\n    \n}\n\n\n\ninput[type=\"radio\"]{\n    appearance: none;\n    margin: 0;\n    height: 30px;\n    width: 55px;\n    border-radius: px;\n   \n  \n\n}\n\n#radio-form > input:nth-child(1){\n    height: 32px;\n    width: 32px;\n    border: solid 2px rgb(5, 163, 0);\n    color: rgb(5, 163, 0);\n    border-radius: 50%;\n    transition: background-color 0.2s;\n}\n\n#radio-form > input:nth-child(1):hover{\n   \n    background-color: rgb(5, 163, 0);\n    color: white;\n}\n#radio-form > input:nth-child(1):checked{\n   \n    background-color: rgb(5, 163, 0);\n    color: white;\n} \n\n\n#radio-form > input:nth-child(2){\n    height: 32px;\n    width: 32px;\n    border: solid 2px rgb(247, 203, 59);\n    border-radius: 50%;\n    color: rgb(247, 203, 59);\n    transition: background-color 0.2s;\n}  \n#radio-form > :nth-child(2):hover{\n   \n    background-color: rgb(247, 203, 59);\n    color: white;\n     \n }\n #radio-form > :nth-child(2):checked{\n   \n    background-color: rgb(247, 203, 59);\n    color: white;\n     \n } \n\n\n #radio-form > input:nth-child(3){\n    height: 32px;\n    width: 32px;\n    border: solid 2px rgb(199, 68, 68);\n    border-radius: 50%;\n    color: rgb(199, 68, 68);\n    transition: background-color 0.2s;\n\n}\n#radio-form > input:nth-child(3):hover{\n   \n    background-color: rgb(199, 68, 68);\n    color: white;\n     \n }\n #radio-form > input:nth-child(3):checked{\n   \n    background-color: rgb(199, 68, 68);\n    color: white;\n     \n } \n\n\n\n\n.priority-select > h1{\n    color:rgb(131, 131, 131) ;\n    font-weight: 400;\n    font-size: 24px;\n}\n\n\n\n::placeholder{\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    color:rgb(131, 131, 131) ;\n\n}\n\n\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1099,13 +1146,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   addTaskButton: () => (/* binding */ addTaskButton),
 /* harmony export */   cancelProjectButton: () => (/* binding */ cancelProjectButton),
 /* harmony export */   confirmProjectButton: () => (/* binding */ confirmProjectButton),
+/* harmony export */   deleteProject: () => (/* binding */ deleteProject),
+/* harmony export */   deleteProjectCancel: () => (/* binding */ deleteProjectCancel),
+/* harmony export */   deleteProjectConfirm: () => (/* binding */ deleteProjectConfirm),
 /* harmony export */   drawNewProjectContainer: () => (/* binding */ drawNewProjectContainer),
 /* harmony export */   drawTask: () => (/* binding */ drawTask),
+/* harmony export */   eraseProjectContainer: () => (/* binding */ eraseProjectContainer),
 /* harmony export */   gatherTaskInfo: () => (/* binding */ gatherTaskInfo),
 /* harmony export */   getCurrentContainer: () => (/* binding */ getCurrentContainer),
 /* harmony export */   getProjectName: () => (/* binding */ getProjectName),
 /* harmony export */   hideProjects: () => (/* binding */ hideProjects),
 /* harmony export */   modalOverlay: () => (/* binding */ modalOverlay),
+/* harmony export */   modalOverlay2: () => (/* binding */ modalOverlay2),
 /* harmony export */   projectList: () => (/* binding */ projectList),
 /* harmony export */   projectNameInput: () => (/* binding */ projectNameInput),
 /* harmony export */   projects: () => (/* binding */ projects),
@@ -1131,6 +1183,11 @@ const submitButton = document.querySelector('.submit-task-button')
 const confirmProjectButton = document.querySelector('.confirm-project') 
 const cancelProjectButton = document.querySelector('.cancel-project')
 const projectNameInput = document.querySelector('.project-name-input-field')
+
+const deleteProject = document.querySelector('.delete-project')
+const deleteProjectConfirm = document.querySelector('.confirm-project-delete')
+const deleteProjectCancel = document.querySelector('.cancel-project-delete')
+const modalOverlay2 = document.querySelector('#modal-overlay-2')
 
 
 let projectNameDiv = document.body.querySelector('.project-name-input')
@@ -1305,12 +1362,29 @@ function gatherTaskInfo(){
 
 function getCurrentContainer(){
         for(let i = 0; i < projectList.length;i++){
-            if(projectList[i].classList.contains('highlighted') && i != 1 && i != 2){
+            if(projectList[i].classList.contains('highlighted')){
                 return projectList[i].innerText
             }
         }
         return 'Inbox'
 }
+
+
+function eraseProjectContainer(projectName){
+    
+    let length = userProjectContainer.children.length
+
+    for(let i = 0; i < length;i++){
+        if(userProjectContainer.children[i].innerHTML === projectName){
+            userProjectContainer.children[i].remove()
+        }
+    }
+
+}
+
+
+
+
 
 
 
@@ -1344,16 +1418,19 @@ _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.submitButton.addEventListener('click',()=
     
     let taskInfo = (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.gatherTaskInfo)()
     let task = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.createToDo)(taskInfo.taskName,taskInfo.taskDescription,taskInfo.taskDate,taskInfo.prio)
-    let currentContainer = (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.getCurrentContainer)()
+    let currentContainerName = (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.getCurrentContainer)()
 
     
         
-        currentContainer = _logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(currentContainer)
-        if(currentContainer === " Today" || currentContainer === " This week"){
-            (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task," Inbox")
+        let currentContainer = _logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(currentContainerName)
+        if(currentContainerName === " Today" || currentContainerName === " This week"){
+            (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,_logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(" Inbox"))
+            task.addToContainer(" Inbox")
+
 
         } else {
             (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,currentContainer)
+            task.addToContainer(currentContainerName)
             ;(0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.drawTask)(task)
 
         }
@@ -1361,13 +1438,14 @@ _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.submitButton.addEventListener('click',()=
     
     if((0,_logic__WEBPACK_IMPORTED_MODULE_2__.isTaskDueToday)(task)){
         (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,_logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(" Today"))
-       let x = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.getProjectsMap)()
+        task.addToContainer(" Today")
+
     }
 
     if((0,_logic__WEBPACK_IMPORTED_MODULE_2__.isTaskDueThisWeek)(task)){
 
         (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,_logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(" This week"))
-        let y = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.getProjectsMap)()
+        task.addToContainer(" This week")
 
     }
 
@@ -1438,19 +1516,63 @@ function removeTask(task,projectName){
 
     let projectsMap = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.getProjectsMap)()
     let projectArray = projectsMap.get(projectName)
+    let containers = task.containers
 
     let arrayLength = projectArray.length
 
-    for(let i = 0; i < arrayLength;i++){
-        if(projectArray[i].title == task.title){
-            projectArray.splice(i,1)
-            return
+    for(let i = 0;i < containers.length;i++){
+        for(const key of projectsMap.keys()){
+            if(containers[i] === key){
+                (0,_logic__WEBPACK_IMPORTED_MODULE_2__.removeTaskFromProject)(task,key)
+            }
         }
     }
 
 
 
 }
+
+function removeProject(projectName){
+
+
+    (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.hideProjects)()
+    ;(0,_logic__WEBPACK_IMPORTED_MODULE_2__.emptyProjectArray)(projectName)
+    ;(0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.eraseProjectContainer)(projectName)
+
+
+
+}
+
+
+
+_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.deleteProjectConfirm.addEventListener('click', ()=>{
+    let currentContainer = (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.getCurrentContainer)()
+     if (currentContainer === (' Inbox' || 0 || 0)){
+         return
+     } else {
+        removeProject(currentContainer)
+        _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.modalOverlay2.style.display = 'none'
+
+     }
+ })
+
+ _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.deleteProject.addEventListener('click',()=>{
+    let currentContainer = (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.getCurrentContainer)()
+
+    if (currentContainer === (' Inbox' || 0 || 0)){
+        return
+    } else {
+
+        _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.modalOverlay2.style.display = 'flex'
+        let modalHeader = document.querySelector('#delete-project-header')
+        modalHeader.innerText = `Delete project ${currentContainer}?`
+    }
+ })
+
+ _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.deleteProjectCancel.addEventListener('click',()=>{
+    _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.modalOverlay2.style.display = 'none'
+
+ })
 
 
 
@@ -1485,12 +1607,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   addToContainer: () => (/* binding */ addToContainer),
 /* harmony export */   createProject: () => (/* binding */ createProject),
 /* harmony export */   createToDo: () => (/* binding */ createToDo),
+/* harmony export */   emptyProjectArray: () => (/* binding */ emptyProjectArray),
 /* harmony export */   getProjectsMap: () => (/* binding */ getProjectsMap),
 /* harmony export */   inbox: () => (/* binding */ inbox),
 /* harmony export */   isTaskDueThisWeek: () => (/* binding */ isTaskDueThisWeek),
 /* harmony export */   isTaskDueToday: () => (/* binding */ isTaskDueToday),
-/* harmony export */   projectsMap: () => (/* binding */ projectsMap)
+/* harmony export */   projectsMap: () => (/* binding */ projectsMap),
+/* harmony export */   removeTaskFromProject: () => (/* binding */ removeTaskFromProject)
 /* harmony export */ });
+/* harmony import */ var _DOMstuff__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DOMstuff */ "./src/DOMstuff.js");
+
+
 let thisWeek = []
 let today = []
 
@@ -1509,6 +1636,14 @@ function getProjectsMap(){
     return projectsMap
 }
 
+function removeTaskFromProject(task,project){
+    let removedProject = projectsMap.get(project)
+    for(let i = 0; i < removedProject.length;i++){
+        if(removedProject[i].title === task.title){
+            removedProject.splice(i,1)
+        }
+    }
+}
 
 const toDoFactory = (title,description,dueDate,priority) => {
 
@@ -1516,11 +1651,24 @@ const toDoFactory = (title,description,dueDate,priority) => {
         title: title,
         description: description,
         dueDate: dueDate,
-        priority: priority
-      };
+        priority: priority,
+        containers : [],
+
+        addToContainer : function(container) {
+            for(const key of projectsMap.keys()){
+                if(container === key){
+                    toDoItem.containers.push(key)
+                }
+            }
+        }
+      }
+
+     
+
 
     return {toDoItem}
 }
+
 
 
 
@@ -1586,6 +1734,9 @@ function isTaskDueThisWeek(toDo){
 }
     
 
+function emptyProjectArray(projectName){
+    projectsMap.get(projectName).length = 0
+}
 
 /***/ })
 

@@ -17,6 +17,11 @@ export const confirmProjectButton = document.querySelector('.confirm-project')
 export const cancelProjectButton = document.querySelector('.cancel-project')
 export const projectNameInput = document.querySelector('.project-name-input-field')
 
+export const deleteProject = document.querySelector('.delete-project')
+export const deleteProjectConfirm = document.querySelector('.confirm-project-delete')
+export const deleteProjectCancel = document.querySelector('.cancel-project-delete')
+export const modalOverlay2 = document.querySelector('#modal-overlay-2')
+
 
 let projectNameDiv = document.body.querySelector('.project-name-input')
 
@@ -190,11 +195,28 @@ export function gatherTaskInfo(){
 
 export function getCurrentContainer(){
         for(let i = 0; i < projectList.length;i++){
-            if(projectList[i].classList.contains('highlighted') && i != 1 && i != 2){
+            if(projectList[i].classList.contains('highlighted')){
                 return projectList[i].innerText
             }
         }
         return 'Inbox'
 }
+
+
+export function eraseProjectContainer(projectName){
+    
+    let length = userProjectContainer.children.length
+
+    for(let i = 0; i < length;i++){
+        if(userProjectContainer.children[i].innerHTML === projectName){
+            userProjectContainer.children[i].remove()
+        }
+    }
+
+}
+
+
+
+
 
 

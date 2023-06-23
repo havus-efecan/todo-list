@@ -1,3 +1,5 @@
+import { projects } from "./DOMstuff"
+
 let thisWeek = []
 let today = []
 
@@ -16,6 +18,14 @@ export function getProjectsMap(){
     return projectsMap
 }
 
+export function removeTaskFromProject(task,project){
+    let removedProject = projectsMap.get(project)
+    for(let i = 0; i < removedProject.length;i++){
+        if(removedProject[i].title === task.title){
+            removedProject.splice(i,1)
+        }
+    }
+}
 
 const toDoFactory = (title,description,dueDate,priority) => {
 
@@ -23,11 +33,24 @@ const toDoFactory = (title,description,dueDate,priority) => {
         title: title,
         description: description,
         dueDate: dueDate,
-        priority: priority
-      };
+        priority: priority,
+        containers : [],
+
+        addToContainer : function(container) {
+            for(const key of projectsMap.keys()){
+                if(container === key){
+                    toDoItem.containers.push(key)
+                }
+            }
+        }
+      }
+
+     
+
 
     return {toDoItem}
 }
+
 
 
 
@@ -92,3 +115,7 @@ export function isTaskDueThisWeek(toDo){
 
 }
     
+
+export function emptyProjectArray(projectName){
+    projectsMap.get(projectName).length = 0
+}
