@@ -14,6 +14,39 @@ export let projectsMap = new Map([
 
 ])
 
+
+
+export function updateProjectsMap(){
+
+    projectsMap = getProjectsFromStorage()
+
+} 
+
+export function updateProjectsInStorage(){
+
+    let serializedProjects = JSON.stringify([...projectsMap])
+    localStorage.setItem('projects', serializedProjects)
+
+
+}
+
+export function getProjectsFromStorage(){
+
+    let projects =  JSON.parse(localStorage.getItem('projects'))
+    return new Map(projects)
+
+}
+
+
+export function addStoredTasks(){
+
+
+
+}
+
+
+
+
 export function getProjectsMap(){
     return projectsMap
 }
@@ -58,6 +91,8 @@ const toDoFactory = (title,description,dueDate,priority) => {
 
 export function createToDo(title,description,dueDate,priority){
     let newToDo = toDoFactory(title,description,dueDate,priority).toDoItem
+
+
     return newToDo
 }
 

@@ -1,7 +1,29 @@
 import '../src/style.css';
 import {deleteProjectCancel,modalOverlay2,deleteProjectConfirm,eraseProjectContainer,deleteProject, drawTask,hideProjects,getCurrentContainer,cancelProjectButton,projects,projectList,confirmProjectButton,projectNameInput,addProjectButton,drawNewProjectContainer,getProjectName,addTaskButton,modalOverlay,submitButton,gatherTaskInfo} from './DOMstuff';
-import {removeTaskFromProject,emptyProjectArray,addToContainer,isTaskDueToday,isTaskDueThisWeek,createToDo,inbox,createProject, projectsMap,getProjectsMap} from './logic'
+import {updateProjectsMap,getProjectsFromStorage,updateProjectsInStorage,removeTaskFromProject,emptyProjectArray,addToContainer,isTaskDueToday,isTaskDueThisWeek,createToDo,inbox,createProject, projectsMap,getProjectsMap} from './logic'
 
+
+updateProjectsMap()
+displayProjectTasks(' Inbox')
+
+
+function drawExistingProjects(){
+
+    let existingProjects = getProjectsFromStorage()
+
+    const keysArray = Array.from(existingProjects.keys());
+
+
+    for(let i = 3; i < existingProjects.size; i++){
+
+
+        drawNewProjectContainer(keysArray[i])
+    }
+
+ 
+}
+
+drawExistingProjects()
 
 
 
@@ -12,7 +34,7 @@ submitButton.addEventListener('click',()=>{
     let task = createToDo(taskInfo.taskName,taskInfo.taskDescription,taskInfo.taskDate,taskInfo.prio)
     let currentContainerName = getCurrentContainer()
 
-    
+        let projectsMap = getProjectsMap()
         
         let currentContainer = projectsMap.get(currentContainerName)
         if(currentContainerName === " Today" || currentContainerName === " This week"){
@@ -41,6 +63,7 @@ submitButton.addEventListener('click',()=>{
 
     }
 
+    updateProjectsInStorage()
 
     modalOverlay.style.display = 'none'
 
@@ -78,10 +101,21 @@ confirmProjectButton.addEventListener('click', ()=>{
     let newProjectName = projectNameInput.value
     let newProjectObject = createProject(newProjectName)
     projectsMap.set(newProjectName,newProjectObject)
+
+    updateProjectsInStorage(newProjectName)
     
     drawNewProjectContainer(newProjectName)
 })
 
+// function addProjectToLocalStorage(newProjectName){
+
+//     let project = projectmap.get(newProjectName)
+
+//     let serializedProject = JSON.stringify(project)
+//     localStorage.
+
+
+// }
 
 
 export function displayProjectTasks(containerName){
@@ -120,7 +154,7 @@ export function removeTask(task,projectName){
         }
     }
 
-
+    updateProjectsInStorage()
 
 }
 
@@ -144,6 +178,8 @@ deleteProjectConfirm.addEventListener('click', ()=>{
      } else {
         removeProject(currentContainer)
         modalOverlay2.style.display = 'none'
+        // emptyProjectArray(currentContainer)
+        updateProjectsInStorage()
 
      }
  })
@@ -165,12 +201,6 @@ deleteProjectConfirm.addEventListener('click', ()=>{
     modalOverlay2.style.display = 'none'
 
  })
-
-
-
-
-
-
 
 
 

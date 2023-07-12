@@ -1197,6 +1197,7 @@ let projectNameDiv = document.body.querySelector('.project-name-input')
 let projectList = [projects.children[0],projects.children[1],projects.children[2]]
 
 
+
 function drawNewProjectContainer(name){
 
     let newProjectContainer = document.createElement('button')
@@ -1384,11 +1385,6 @@ function eraseProjectContainer(projectName){
 
 
 
-
-
-
-
-
 /***/ }),
 
 /***/ "./src/index.js":
@@ -1411,6 +1407,28 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+(0,_logic__WEBPACK_IMPORTED_MODULE_2__.updateProjectsMap)()
+displayProjectTasks(' Inbox')
+
+
+function drawExistingProjects(){
+
+    let existingProjects = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.getProjectsFromStorage)()
+
+    const keysArray = Array.from(existingProjects.keys());
+
+
+    for(let i = 3; i < existingProjects.size; i++){
+
+
+        (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.drawNewProjectContainer)(keysArray[i])
+    }
+
+ 
+}
+
+drawExistingProjects()
+
 
 
 _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.submitButton.addEventListener('click',()=>{
@@ -1420,11 +1438,11 @@ _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.submitButton.addEventListener('click',()=
     let task = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.createToDo)(taskInfo.taskName,taskInfo.taskDescription,taskInfo.taskDate,taskInfo.prio)
     let currentContainerName = (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.getCurrentContainer)()
 
-    
+        let projectsMap = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.getProjectsMap)()
         
-        let currentContainer = _logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(currentContainerName)
+        let currentContainer = projectsMap.get(currentContainerName)
         if(currentContainerName === " Today" || currentContainerName === " This week"){
-            (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,_logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(" Inbox"))
+            (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,projectsMap.get(" Inbox"))
             task.addToContainer(" Inbox")
 
 
@@ -1437,18 +1455,19 @@ _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.submitButton.addEventListener('click',()=
     
     
     if((0,_logic__WEBPACK_IMPORTED_MODULE_2__.isTaskDueToday)(task)){
-        (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,_logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(" Today"))
+        (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,projectsMap.get(" Today"))
         task.addToContainer(" Today")
 
     }
 
     if((0,_logic__WEBPACK_IMPORTED_MODULE_2__.isTaskDueThisWeek)(task)){
 
-        (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,_logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(" This week"))
+        (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,projectsMap.get(" This week"))
         task.addToContainer(" This week")
 
     }
 
+    (0,_logic__WEBPACK_IMPORTED_MODULE_2__.updateProjectsInStorage)()
 
     _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.modalOverlay.style.display = 'none'
 
@@ -1486,10 +1505,21 @@ _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.confirmProjectButton.addEventListener('cl
     let newProjectName = _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.projectNameInput.value
     let newProjectObject = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.createProject)(newProjectName)
     _logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.set(newProjectName,newProjectObject)
+
+    ;(0,_logic__WEBPACK_IMPORTED_MODULE_2__.updateProjectsInStorage)(newProjectName)
     
     ;(0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.drawNewProjectContainer)(newProjectName)
 })
 
+// function addProjectToLocalStorage(newProjectName){
+
+//     let project = projectmap.get(newProjectName)
+
+//     let serializedProject = JSON.stringify(project)
+//     localStorage.
+
+
+// }
 
 
 function displayProjectTasks(containerName){
@@ -1528,7 +1558,7 @@ function removeTask(task,projectName){
         }
     }
 
-
+    (0,_logic__WEBPACK_IMPORTED_MODULE_2__.updateProjectsInStorage)()
 
 }
 
@@ -1552,6 +1582,8 @@ _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.deleteProjectConfirm.addEventListener('cl
      } else {
         removeProject(currentContainer)
         _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.modalOverlay2.style.display = 'none'
+        // emptyProjectArray(currentContainer)
+        ;(0,_logic__WEBPACK_IMPORTED_MODULE_2__.updateProjectsInStorage)()
 
      }
  })
@@ -1588,12 +1620,6 @@ _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.deleteProjectConfirm.addEventListener('cl
 
 
 
-
-
-
-
-
-
 /***/ }),
 
 /***/ "./src/logic.js":
@@ -1604,16 +1630,20 @@ _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.deleteProjectConfirm.addEventListener('cl
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   addStoredTasks: () => (/* binding */ addStoredTasks),
 /* harmony export */   addToContainer: () => (/* binding */ addToContainer),
 /* harmony export */   createProject: () => (/* binding */ createProject),
 /* harmony export */   createToDo: () => (/* binding */ createToDo),
 /* harmony export */   emptyProjectArray: () => (/* binding */ emptyProjectArray),
+/* harmony export */   getProjectsFromStorage: () => (/* binding */ getProjectsFromStorage),
 /* harmony export */   getProjectsMap: () => (/* binding */ getProjectsMap),
 /* harmony export */   inbox: () => (/* binding */ inbox),
 /* harmony export */   isTaskDueThisWeek: () => (/* binding */ isTaskDueThisWeek),
 /* harmony export */   isTaskDueToday: () => (/* binding */ isTaskDueToday),
 /* harmony export */   projectsMap: () => (/* binding */ projectsMap),
-/* harmony export */   removeTaskFromProject: () => (/* binding */ removeTaskFromProject)
+/* harmony export */   removeTaskFromProject: () => (/* binding */ removeTaskFromProject),
+/* harmony export */   updateProjectsInStorage: () => (/* binding */ updateProjectsInStorage),
+/* harmony export */   updateProjectsMap: () => (/* binding */ updateProjectsMap)
 /* harmony export */ });
 /* harmony import */ var _DOMstuff__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DOMstuff */ "./src/DOMstuff.js");
 
@@ -1631,6 +1661,39 @@ let projectsMap = new Map([
 
 
 ])
+
+
+
+function updateProjectsMap(){
+
+    projectsMap = getProjectsFromStorage()
+
+} 
+
+function updateProjectsInStorage(){
+
+    let serializedProjects = JSON.stringify([...projectsMap])
+    localStorage.setItem('projects', serializedProjects)
+
+
+}
+
+function getProjectsFromStorage(){
+
+    let projects =  JSON.parse(localStorage.getItem('projects'))
+    return new Map(projects)
+
+}
+
+
+function addStoredTasks(){
+
+
+
+}
+
+
+
 
 function getProjectsMap(){
     return projectsMap
@@ -1676,6 +1739,8 @@ const toDoFactory = (title,description,dueDate,priority) => {
 
 function createToDo(title,description,dueDate,priority){
     let newToDo = toDoFactory(title,description,dueDate,priority).toDoItem
+
+
     return newToDo
 }
 

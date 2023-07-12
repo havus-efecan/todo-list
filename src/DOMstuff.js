@@ -30,6 +30,7 @@ let projectNameDiv = document.body.querySelector('.project-name-input')
 export let projectList = [projects.children[0],projects.children[1],projects.children[2]]
 
 
+
 export function drawNewProjectContainer(name){
 
     let newProjectContainer = document.createElement('button')
@@ -214,9 +215,4 @@ export function eraseProjectContainer(projectName){
     }
 
 }
-
-
-
-
-
 
