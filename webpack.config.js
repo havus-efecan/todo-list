@@ -7,7 +7,7 @@ module.exports = {
   devtool: 'eval-source-map',
   entry: './src/index.js', // The entry point of your application
   output: {
-    path: path.resolve(__dirname, 'dist'), // Output directory
+    path: path.resolve(__dirname, ''), // Output directory
     publicPath: '/', // Public URL path of your bundle
     filename: 'bundle.js',
   },
