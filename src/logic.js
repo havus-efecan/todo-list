@@ -18,7 +18,14 @@ export let projectsMap = new Map([
 
 export function updateProjectsMap(){
 
-    projectsMap = getProjectsFromStorage()
+    let oldProjects = getProjectsFromStorage()
+
+    for (let [key,value] of oldProjects){
+        
+        projectsMap.set(key,value)
+
+    }
+
 
 } 
 

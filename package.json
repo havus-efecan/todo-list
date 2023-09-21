@@ -1,23 +1,28 @@
 {
   "name": "odin-todo",
   "version": "1.0.0",
+  "repository": {
+    "url": "git+https://github.com/{havus-efecan}/{todo-list}.git"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --watch",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^6.0.0",
+    "html-webpack-plugin": "^5.5.3",
     "style-loader": "^3.3.3",
-    "webpack": "^5.87.0",
+    "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
-  },
-  "dependencies": {
-    "file-loader": "^6.2.0"
   }
 }

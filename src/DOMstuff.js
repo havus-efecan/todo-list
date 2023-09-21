@@ -57,7 +57,9 @@ for(let i = 0; i < projectList.length;i++){
 }
 }    
 
-export function hideProjects(){
+export function hideProjects(project){
+
+
     let length = taskContainer.children.length
     for(let i = 0; i < length;i++){
         taskContainer.children[0].remove()
@@ -147,6 +149,8 @@ function eraseTask(clickedElement){
     clickedElement.parentNode.parentNode.remove()
 
 }
+
+
 
 
 

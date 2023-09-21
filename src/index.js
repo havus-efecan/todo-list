@@ -160,10 +160,29 @@ export function removeTask(task,projectName){
 
 function removeProject(projectName){
 
+    let project = projectsMap.get(projectName)
 
-    hideProjects()
+    for(const task of project){
+        for(const container of task.containers){
+            if(container === ' Inbox'){
+                removeTask(task, ' Inbox')
+            }
+            if(container === ' Today'){
+                removeTask(task, ' Today')
+
+            }
+            if(container === ' This week'){
+                removeTask(task, ' This week')
+
+            }
+        }
+    }
+    
+    hideProjects(project)
     emptyProjectArray(projectName)
     eraseProjectContainer(projectName)
+
+
 
 
 
@@ -176,6 +195,10 @@ deleteProjectConfirm.addEventListener('click', ()=>{
      if (currentContainer === (' Inbox' || ' Today' || ' This week')){
          return
      } else {
+
+        
+
+
         removeProject(currentContainer)
         modalOverlay2.style.display = 'none'
         // emptyProjectArray(currentContainer)

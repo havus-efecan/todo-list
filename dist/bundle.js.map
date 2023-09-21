@@ -1,1 +1,1877 @@
-{"version":3,"file":"bundle.js","mappings":";;;;;;;;;;;;;;;;;;AAAA;AAC0G;AACjB;AACzF,8BAA8B,mFAA2B,CAAC,4FAAqC;AAC/F;AACA;AACA;AACA;;AAEA;;;;AAIA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;;AAGA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;;AAEA;;AAEA;;AAEA;;;AAGA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;;;AAIA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;;AAGA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;;AAEA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;;AAGA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;;;AAGA;AACA;AACA;AACA;;;;AAIA;AACA;AACA;AACA;AACA;;;AAGA;AACA;AACA;AACA;AACA;AACA;;AAEA;;;AAGA;;AAEA;;AAEA;;AAEA;AACA;AACA;;;;AAIA;AACA;AACA;AACA;;;;;AAKA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA,sCAAsC;AACtC;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;;AAEA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;;AAGA;;AAEA;AACA;AACA;AACA;AACA;;;AAGA;AACA;AACA;;AAEA;AACA;AACA;;;;;;;AAOA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;;AAEA;AACA;AACA;AACA;AACA;;AAEA;;;AAGA;AACA;;AAEA;;;;AAIA;AACA;AACA;AACA;AACA;;AAEA;;AAEA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;;AAEA;;AAEA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;;;;AAIA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;;;AAIA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;;;AAGA;;;AAGA;AACA;AACA;;AAEA;AACA;AACA;AACA;;AAEA;;;AAGA;;AAEA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AA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wBAAwB;AAC1C;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA,kBAAkB,iBAAiB;AACnC;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA,MAAM;AACN;AACA;AACA;AACA;AACA;AACA;AACA,OAAO;AACP;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA,MAAM;AACN;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA,oBAAoB,4BAA4B;AAChD;AACA;AACA;AACA;AACA;AACA,qBAAqB,6BAA6B;AAClD;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;;;;;;;;;ACnFa;;AAEb;;AAEA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA,QAAQ;AACR;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;;;;;;;;;ACjCa;;AAEb;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;;;;;;;;;ACTa;;AAEb;AACA;AACA,cAAc,KAAwC,GAAG,sBAAiB,GAAG,CAAI;AACjF;AACA;AACA;AACA;AACA;;;;;;;;;;ACTa;;AAEb;AACA;AACA;AACA;AACA,kDAAkD;AAClD;AACA;AACA,0CAA0C;AAC1C;AACA;AACA;AACA,iFAAiF;AACjF;AACA;AACA;AACA,aAAa;AACb;AACA;AACA,aAAa;AACb;AACA;AACA,aAAa;AACb;AACA;AACA;AACA,yDAAyD;AACzD;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA,kCAAkC;AAClC;AACA;AACA;AACA;AACA;AACA;AACA;AACA,KAAK;AACL;AACA;AACA;AACA;AACA;AACA;;;;;;;;;;AC5Da;;AAEb;AACA;AACA;AACA;AACA,IAAI;AACJ;AACA;AACA;AACA;AACA;AACA;AACA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;ACbiF;;AAEjF;AACA;AACA;AACO;AACA;AACP;;AAEO;AACA;;AAEA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;;;AAGP;;;;AAIO;;;;AAIA;;AAEP;AACA;AACA;AACA;AACA;;;AAGA,eAAe,uBAAuB;AACtC;AACA;;AAEA,uBAAuB,uBAAuB;AAC9C;AACA;AACA;AACA;;AAEA;AACA,QAAQ,4DAAmB;;AAE3B,CAAC;AACD;AACA;;AAEO;AACP;AACA,mBAAmB,WAAW;AAC9B;AACA;AACA;;;;AAIO;;AAEP;;AAEA;;;AAGA;AACA;AACA,CAAC;;;AAGM;;AAEP;AACA;AACA;AACA;;;AAGA;AACA;AACA;AACA;;AAEA;AACA;;AAEA;AACA;;AAEA;AACA;;AAEA;;;AAGA;AACA;AACA;AACA,kDAAkD;;;AAGlD;AACA;AACA;AACA,oDAAoD;;;AAGpD;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;AACA;;AAEA;AACA;AACA;;;AAGA;;AAEA;AACA,QAAQ,mDAAU;AAClB;AACA,KAAK;;AAEL;;;AAGA;;AAEA;;AAEA;;;;;AAKA;;AAEA;;;;AAIA,CAAC;;;;AAIM;;AAEP;AACA;AACA;AACA;AACA;AACA;;AAEA;;AAEA;AACA;AACA,MAAM;AACN;AACA,MAAM;AACN;AACA;;AAEA;;AAEA;AACA;AACA;AACA;;AAEA;;AAEA;;AAEA;;;AAGO;AACP,uBAAuB,uBAAuB;AAC9C;AACA;AACA;AACA;AACA;AACA;;;AAGO;AACP;AACA;;AAEA,mBAAmB,WAAW;AAC9B;AACA;AACA;AACA;;AAEA;;;;;;;;;;;;;;;;;;;;;ACxN0B;AACqU;AACpH;;;AAG3O,yDAAiB;AACjB;;;AAGA;;AAEA,2BAA2B,8DAAsB;;AAEjD;;;AAGA,mBAAmB,2BAA2B;;;AAG9C,QAAQ,kEAAuB;AAC/B;;AAEA;AACA;;AAEA;;;;AAIA,mDAAY;;AAEZ;AACA,mBAAmB,yDAAc;AACjC,eAAe,kDAAU;AACzB,+BAA+B,8DAAmB;;AAElD,0BAA0B,sDAAc;AACxC;AACA;AACA;AACA,YAAY,sDAAc;AAC1B;;;AAGA,UAAU;AACV,YAAY,sDAAc;AAC1B;AACA,YAAY,oDAAQ;;AAEpB;AACA;AACA;AACA,OAAO,sDAAc;AACrB,QAAQ,sDAAc;AACtB;;AAEA;;AAEA,OAAO,yDAAiB;;AAExB,QAAQ,sDAAc;AACtB;;AAEA;;AAEA,IAAI,+DAAuB;;AAE3B,IAAI,mDAAY;;AAEhB,CAAC;;;AAGM;;AAEP,mBAAmB,IAAI,kDAAW,QAAQ;AAC1C,QAAQ,kDAAW;AACnB;AACA;AACA,2BAA2B,IAAI,+CAAQ,iBAAiB;AACxD,gBAAgB,kDAAW;AAC3B;AACA;AACA,YAAY,kDAAW;AACvB,YAAY,uDAAY;;AAExB,gCAAgC,kDAAW;AAC3C;AACA,KAAK;AACL;AACA;;AAEA;;AAEA,uDAAgB;;AAEhB,IAAI,0DAAc;;AAElB,CAAC;;AAED,2DAAoB;AACpB,yBAAyB,uDAAgB;AACzC,2BAA2B,qDAAa;AACxC,IAAI,+CAAW;;AAEf,IAAI,gEAAuB;AAC3B;AACA,IAAI,mEAAuB;AAC3B,CAAC;;AAED;;AAEA;;AAEA;AACA;;;AAGA;;;AAGO;;AAEP,cAAc,sDAAc;;;AAG5B;AACA;AACA,sCAAsC,+CAAW;AACjD,2BAA2B,+BAA+B;AAC1D,gBAAgB,mDAAQ;AACxB;AACA;AACA;AACA;;;;;AAKA;;AAEO;;AAEP,sBAAsB,sDAAc;AACpC;AACA;;AAEA;;AAEA,kBAAkB,sBAAsB;AACxC;AACA;AACA,gBAAgB,6DAAqB;AACrC;AACA;AACA;;AAEA,IAAI,+DAAuB;;AAE3B;;AAEA;;;AAGA,IAAI,uDAAY;AAChB,IAAI,0DAAiB;AACrB,IAAI,iEAAqB;;;;AAIzB;;;;AAIA,2DAAoB;AACpB,2BAA2B,8DAAmB;AAC9C,2CAA2C,CAAQ,IAAI,CAAY;AACnE;AACA,OAAO;AACP;AACA,QAAQ,oDAAa;AACrB;AACA,QAAQ,gEAAuB;;AAE/B;AACA,EAAE;;AAEF,CAAC,oDAAa;AACd,2BAA2B,8DAAmB;;AAE9C,0CAA0C,CAAQ,IAAI,CAAY;AAClE;AACA,MAAM;;AAEN,QAAQ,oDAAa;AACrB;AACA,kDAAkD,iBAAiB;AACnE;AACA,EAAE;;AAEF,CAAC,0DAAmB;AACpB,IAAI,oDAAa;;AAEjB,EAAE;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AC1MmC;;AAErC;AACA;;AAEO;;AAEA;AACP;AACA;AACA;AACA;;;AAGA;;;;AAIO;;AAEP;;AAEA;;AAEO;;AAEP;AACA;;;AAGA;;AAEO;;AAEP;AACA;;AAEA;;;AAGO;;;;AAIP;;;;;AAKO;AACP;AACA;;AAEO;AACP;AACA,mBAAmB,0BAA0B;AAC7C;AACA;AACA;AACA;AACA;;AAEA;;AAEA;AACA;AACA;AACA;AACA;AACA;;AAEA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;AAEA;;;AAGA,YAAY;AACZ;;;;;;;AAOO;AACP;;;AAGA;AACA;;AAEO;;AAEP;AACA;;;;AAIO;AACP;AACA;AACA;;AAEA;AACA;AACA;AACA;;;AAGO;;;AAGP;AACA;AACA;AACA;;AAEA;;AAEA;;;AAGO;;;AAGP;;AAEA;;AAEA;AACA;AACA;;;;;AAKA;AACA;AACA;AACA;;AAEA;;AAEA;AACA;;AAEO;AACP;AACA;;;;;;UC3JA;UACA;;UAEA;UACA;UACA;UACA;UACA;UACA;UACA;UACA;UACA;UACA;UACA;UACA;UACA;;UAEA;UACA;;UAEA;UACA;UACA;;;;;WCtBA;WACA;WACA;WACA;WACA;WACA,iCAAiC,WAAW;WAC5C;WACA;;;;;WCPA;WACA;WACA;WACA;WACA,yCAAyC,wCAAwC;WACjF;WACA;WACA;;;;;WCPA;;;;;WCAA;WACA;WACA;WACA,uDAAuD,iBAAiB;WACxE;WACA,gDAAgD,aAAa;WAC7D;;;;;WCNA;;;;;UEAA;UACA;UACA;UACA","sources":["webpack://odin-todo/./src/style.css","webpack://odin-todo/./node_modules/css-loader/dist/runtime/api.js","webpack://odin-todo/./node_modules/css-loader/dist/runtime/sourceMaps.js","webpack://odin-todo/./src/style.css?7163","webpack://odin-todo/./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js","webpack://odin-todo/./node_modules/style-loader/dist/runtime/insertBySelector.js","webpack://odin-todo/./node_modules/style-loader/dist/runtime/insertStyleElement.js","webpack://odin-todo/./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js","webpack://odin-todo/./node_modules/style-loader/dist/runtime/styleDomAPI.js","webpack://odin-todo/./node_modules/style-loader/dist/runtime/styleTagTransform.js","webpack://odin-todo/./src/DOMstuff.js","webpack://odin-todo/./src/index.js","webpack://odin-todo/./src/logic.js","webpack://odin-todo/webpack/bootstrap","webpack://odin-todo/webpack/runtime/compat get default export","webpack://odin-todo/webpack/runtime/define property getters","webpack://odin-todo/webpack/runtime/hasOwnProperty shorthand","webpack://odin-todo/webpack/runtime/make namespace object","webpack://odin-todo/webpack/runtime/nonce","webpack://odin-todo/webpack/before-startup","webpack://odin-todo/webpack/startup","webpack://odin-todo/webpack/after-startup"],"sourcesContent":["// Imports\nimport ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from \"../node_modules/css-loader/dist/runtime/sourceMaps.js\";\nimport ___CSS_LOADER_API_IMPORT___ from \"../node_modules/css-loader/dist/runtime/api.js\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `html,body{\n    height: 100%;\n    margin: 0;\n\n}\n\n\n\nbody{\n    background: hsla(337, 65%, 78%, 1);\n    background: linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);\n    background: -moz-linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);\n    background: -webkit-linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);\n\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\ninput[type=\"checkbox\"] {\n    position: relative;\n    appearance: none;\n    width: 1.5em;\n    height: 1.5em;\n    border-radius: 50%;\n    border: 2px solid rgb(240, 203, 134);\n\n\n  }\n\n  input[type=\"checkbox\"]::before {\n    content: \" \";\n    border-radius: 50%;\n    height: 100%;\n    width: 100%;\n    position: absolute;\n    font-size: 1.2em;\n    visibility: hidden;\n  }\n  input[type=\"checkbox\"]:hover{\n    background-color: rgb(21, 172, 71);\n\n  }\n \n  \n  input[type=\"checkbox\"]:checked::before {\n    /* Use \\`visibility\\` instead of \\`display\\` to avoid recalculating layout */\n    visibility: visible;\n  }\n  \n  input[type=\"checkbox\"]:disabled {\n    border-color: black;\n    background: #ddd;\n    color: gray;\n  }\n\nh1{\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    font-size: 42px;\n    color: rgb(255, 255, 255);\n}\n\n.main-container{\n    height: 700px;\n    width: 1000px;\n    background-color: rgb(255, 255, 255);\n    border-radius: 24px;\n\n    display: grid;\n\n    grid-template: 0.2fr 1fr/ 0.3fr 1fr;\n\n}\n\n\n.header{\n    grid-area: 1/1/2/3;\n    display: flex;\n    background-color: rgb(240, 203, 134);\n    border-top-left-radius: 24px;\n    border-top-right-radius: 24px;\n    justify-content: flex-start;\n    align-items: center;\n    padding-left: 24px;\n    box-sizing: border-box;\n\n\n\n}\n.logo{\n    display: flex;\n    flex-direction: row;\n    flex-basis: 50%;\n    justify-content: flex-start;\n    align-items: center;\n}\n.logo > i{\n    margin-right: 24px;\n}\n\n\n.sidebar{\n    background-color: rgb(255, 242, 225);\n    grid-area: 2/1/3/2;\n    display: flex;\n    border-bottom-left-radius: 24px;\n    flex-direction: column;\n    padding: 18px;\n\n}\n.sidebar > *{\n\n    flex-basis: 30%;\n}\n\n.sidebar button{\n    height: 42px;\n    width: 90%;\n    text-align: start;\n}\n.user-projects{\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-start;\n    width: 100%;\n    gap:10px;\n    max-height: 250px;\n    overflow-y: auto;\n    flex-shrink: 0\n}\n\n\n.user-projects button{\n    height: 42px;\n    min-height: 42px;\n    width: 90%;\n\n}\n.user-projects button:hover{\n    background-color: rgb(240, 203, 134);\n\n}\n\n\n.highlighted{\n    background-color: rgb(240, 203, 134);\n    border-radius: 4px;\n}\n\n\n\n.default-projects-list{\n    display: flex;\n    flex-direction: column;\n    justify-content: space-evenly;\n    align-items: flex-start;\n\n\n}\n.projects-list{\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-start;\n    align-items: flex-start;\n\n}\n\n\n.default-projects-list > *:hover{\n\n    background-color: rgb(240, 203, 134);\n\n}\n\n.project-name-input{\n    display: none;\n}\n\n\n\n.projects-title{\n    color: rgb(109, 109, 109);\n    font-size: 24px;\n}\n\n\n\n\nbutton{\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    border: none;\n    background-color: rgb(255, 242, 225);\n    font-size: 18px;\n    color: rgb(143, 143, 143);\n    font-weight: 600;\n    cursor: pointer;\n    transition: background-color 0.2s;\n\n}\n\n.todo-container{\n    height: 100%;\n    width: 100%;\n    padding: 24px;\n    grid-area: 2/2/3/3;\n    display: flex;\n    flex-direction: column;\n    /* grid-template: 0.25fr 1fr/1fr; */\n    box-sizing: border-box;\n\n}\n.todo-container > div{\n}\n\n.task{\n    padding: 12px;\n    margin: 8px;\n    display: flex;\n    align-items: center;\n    background-color: rgb(255, 242, 225);\n    border-radius: 4px;\n    justify-content: space-between;\n    padding-left: 12px;\n    padding-right: 24px;\n    width: 650px;\n    height: 75px;\n    white-space: nowrap;\n    box-sizing: border-box;\n    transition: box-shadow 0.12s;\n}\n\n.task:hover{\n    box-shadow: 5px 1px 15px -7px rgba(0,0,0,0.32);\n}\n\n.task *{\n    margin-top: 0px;\n    margin-bottom: 0px;\n}\n\n.task-left{\n    display: flex;\n    align-items: center;\n    \n\n}\n\n.task-center{\n    overflow: hidden;\n    text-overflow:ellipsis; \n    width: 400px;\n    display: flex;\n    margin-left: 24px;\n}\n\n.task-center p{\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow:ellipsis; \n  color: rgb(143, 143, 143);\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n\n\n}\n\n.task-right{\n    display: flex;\n    align-items: center;\n    gap: 18px;\n}\n\n\ni{\n    cursor: pointer;\n}\n\ni:hover{\n    color: rgb(190, 125, 71) !important;\n}\n\n\n\n\n\n\nul{\n    position: relative;\n    top: 24px;\n    right: 64px;\n    gap: 4px;\n    display: flex;\n    flex-direction: column;\n}\n\nul > div{\n\n    \n    background-color: rgb(240, 203, 134);\n    color: rgb(255, 255, 255);\n    font-weight: 500;\n    height: 20px;\n    width: 50px;\n    border-radius: 4px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    font-size: 12px;\n    padding-left: 8px;\n    list-style: none;\n    position: relative;\n    display: flex;\n    justify-content: flex-start;\n    align-items: center;\n    cursor: pointer;\n\n    \n}\n\n.dropdown-container{\n    \n    position: relative;\n    width: 0;\n    height: 0;\n\n}\n\n\nul>div:hover{\n    background-color: rgb(240, 210, 156);\n\n}\n\n\n\n.task h1{\n    color: rgb(109, 109, 109);\n    margin-left: 4px;\n    font-size: 24px;\n    font-weight: 500;\n\n}\n\n.task h2 {\n    color: rgb(143, 143, 143);\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    font-size: 18px;\n}\n\n.add-task{\n    display: flex;\n    justify-content: flex-start;\n    justify-content: space-between;\n    align-items: center;\n    gap: 4px;\n    grid-area: 2/1/3/2;\n}\n\n.add-task-button{\n    background-color: white;\n    display: flex;\n    align-items: center;\n    gap: 8px;\n}\n\n.add-task h2{\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    font-size: 24px;\n    color: rgb(109, 109, 109);\n\n}\n\n.tasks{\n    max-height: 460px;\n    overflow-y: auto;\n}\n\n#modal-overlay {\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-color: rgba(0, 0, 0, 0.5);\n    display: none;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n  }\n\n  #modal-content {\n    background-color: #fff;\n    border-radius: 4px;\n    height: 450px;\n    width: 600px;\n    display: grid;\n    grid-template: 0.2fr 1fr/1fr;\n  }\n\n  .modal-header{\n      display: flex;\n      align-items: center;\n      grid-area: 1/1/2/2;\n      background-color: rgb(240, 203, 134);\n      border-top-left-radius: 4px;\n      border-top-right-radius: 4px;\n\n  }\n  .modal-header h1{\n      font-size: 32px;\n      margin: 0;\n      margin-left: 12px;\n      margin-top: 12px;\n      margin-bottom: 12px;\n      \n  }\n\n  .modal-form{\n      display: flex;\n      justify-content: flex-start;\n      padding: 24px;\n      flex-direction: column;\n  }\n\n  .modal-form > form{\n      display: flex;\n      flex-direction: column;\n      justify-content: flex-start;\n      width: 75%;\n      gap: 8px;\n  }\n\n  #modal-overlay-2{\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    background-color: rgba(0, 0, 0, 0.5);\n    display: none;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n  }\n\n  #modal-content-2{\n    background-color: #fff;\n    border-radius: 4px;\n    height: 200px;\n    width: 500px;\n    display: grid;\n    grid-template: 0.2fr 1fr/1fr;\n  }\n\n  .modal-delete-project{\n      display: flex;\n      flex-direction: column;\n      padding: 12px;\n      gap: 48px;\n      justify-content: center;\n\n\n\n  }\n\n  .modal-delete-project > h1{\n    color:rgb(110, 110, 110) ;\n    font-size: 24px;\n  }\n  .project-delete-buttons{\n      display: flex;\n      justify-content: space-evenly;\n      \n  }\n\n\n\n  form > input, form > textarea{\n      border: none;\n      border-bottom: solid rgb(207, 150, 44) 1px;\n      margin: 12px 2px;\n  }\n\n  .projects-list input{\n    border: none;\n    border-bottom: solid rgb(207, 150, 44) 1px;\n    margin: 12px 2px;\n    background-color: rgb(255, 242, 225);\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    width: 75%;\n    color: rgb(110, 110, 110);\n    font-size: 16px;\n    font-weight: 300;\n\n  }\n\n  .project-name-input{\n    display: none;\n    gap:8px;\n    font-weight: 300;\n    font-size: 16px;\n  }\n\n  .project-name-input-buttons{\n    display: flex;\n    flex-direction: column;\n    gap: 4px;\n\n\n  }\n\n\n.project-name-input-buttons > :nth-child(1){\n    \n    color: rgb(13, 148, 13);\n\n  }\n  .project-name-input-buttons > :nth-child(2){\n    \n    color: rgb(201, 20, 20);\n\n  }\n\n\n \n\n  form > input{\n      font-size: 24px;\n      \n  }\n\nform > textarea{\n      font-size: 18px;\n      height: 48px;\n      \n  }\nform > input[type='date']{\n    color: rgb(131, 131, 131);\n    width: 50%;\n}\n\n.priority-select{\n    margin-top: 12px;\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    color: rgb(131, 131, 131);\n    font-size: 24px;\n    display: flex;\n    align-items: center;\n    gap: 12px;\n}\n\n.submit-task-button{\n    height: 60px;\n    width: 60px;\n    align-self: flex-end;\n    background-color: white;\n    border: solid 2px rgb(255, 255, 255);\n    background-color: rgb(240, 203, 134);\n    border-radius: 50%;\n    margin-right: 8px;\n    box-shadow: 5px 5px 13px 3px rgba(0,0,0,0.23);\n    border: none;\n    transition: box-shadow 0.2s;\n\n}\n\n.submit-task-button:active{\n    box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.23);\n\n    \n}\n\n\n\ninput[type=\"radio\"]{\n    appearance: none;\n    margin: 0;\n    height: 30px;\n    width: 55px;\n    border-radius: px;\n   \n  \n\n}\n\n#radio-form > input:nth-child(1){\n    height: 32px;\n    width: 32px;\n    border: solid 2px rgb(5, 163, 0);\n    color: rgb(5, 163, 0);\n    border-radius: 50%;\n    transition: background-color 0.2s;\n}\n\n#radio-form > input:nth-child(1):hover{\n   \n    background-color: rgb(5, 163, 0);\n    color: white;\n}\n#radio-form > input:nth-child(1):checked{\n   \n    background-color: rgb(5, 163, 0);\n    color: white;\n} \n\n\n#radio-form > input:nth-child(2){\n    height: 32px;\n    width: 32px;\n    border: solid 2px rgb(247, 203, 59);\n    border-radius: 50%;\n    color: rgb(247, 203, 59);\n    transition: background-color 0.2s;\n}  \n#radio-form > :nth-child(2):hover{\n   \n    background-color: rgb(247, 203, 59);\n    color: white;\n     \n }\n #radio-form > :nth-child(2):checked{\n   \n    background-color: rgb(247, 203, 59);\n    color: white;\n     \n } \n\n\n #radio-form > input:nth-child(3){\n    height: 32px;\n    width: 32px;\n    border: solid 2px rgb(199, 68, 68);\n    border-radius: 50%;\n    color: rgb(199, 68, 68);\n    transition: background-color 0.2s;\n\n}\n#radio-form > input:nth-child(3):hover{\n   \n    background-color: rgb(199, 68, 68);\n    color: white;\n     \n }\n #radio-form > input:nth-child(3):checked{\n   \n    background-color: rgb(199, 68, 68);\n    color: white;\n     \n } \n\n\n\n\n.priority-select > h1{\n    color:rgb(131, 131, 131) ;\n    font-weight: 400;\n    font-size: 24px;\n}\n\n\n\n::placeholder{\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n    color:rgb(131, 131, 131) ;\n\n}\n\n\n\n`, \"\",{\"version\":3,\"sources\":[\"webpack://./src/style.css\"],\"names\":[],\"mappings\":\"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\",\"sourcesContent\":[\"html,body{\\n    height: 100%;\\n    margin: 0;\\n\\n}\\n\\n\\n\\nbody{\\n    background: hsla(337, 65%, 78%, 1);\\n    background: linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);\\n    background: -moz-linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);\\n    background: -webkit-linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);\\n\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n}\\n\\ninput[type=\\\"checkbox\\\"] {\\n    position: relative;\\n    appearance: none;\\n    width: 1.5em;\\n    height: 1.5em;\\n    border-radius: 50%;\\n    border: 2px solid rgb(240, 203, 134);\\n\\n\\n  }\\n\\n  input[type=\\\"checkbox\\\"]::before {\\n    content: \\\" \\\";\\n    border-radius: 50%;\\n    height: 100%;\\n    width: 100%;\\n    position: absolute;\\n    font-size: 1.2em;\\n    visibility: hidden;\\n  }\\n  input[type=\\\"checkbox\\\"]:hover{\\n    background-color: rgb(21, 172, 71);\\n\\n  }\\n \\n  \\n  input[type=\\\"checkbox\\\"]:checked::before {\\n    /* Use `visibility` instead of `display` to avoid recalculating layout */\\n    visibility: visible;\\n  }\\n  \\n  input[type=\\\"checkbox\\\"]:disabled {\\n    border-color: black;\\n    background: #ddd;\\n    color: gray;\\n  }\\n\\nh1{\\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n    font-size: 42px;\\n    color: rgb(255, 255, 255);\\n}\\n\\n.main-container{\\n    height: 700px;\\n    width: 1000px;\\n    background-color: rgb(255, 255, 255);\\n    border-radius: 24px;\\n\\n    display: grid;\\n\\n    grid-template: 0.2fr 1fr/ 0.3fr 1fr;\\n\\n}\\n\\n\\n.header{\\n    grid-area: 1/1/2/3;\\n    display: flex;\\n    background-color: rgb(240, 203, 134);\\n    border-top-left-radius: 24px;\\n    border-top-right-radius: 24px;\\n    justify-content: flex-start;\\n    align-items: center;\\n    padding-left: 24px;\\n    box-sizing: border-box;\\n\\n\\n\\n}\\n.logo{\\n    display: flex;\\n    flex-direction: row;\\n    flex-basis: 50%;\\n    justify-content: flex-start;\\n    align-items: center;\\n}\\n.logo > i{\\n    margin-right: 24px;\\n}\\n\\n\\n.sidebar{\\n    background-color: rgb(255, 242, 225);\\n    grid-area: 2/1/3/2;\\n    display: flex;\\n    border-bottom-left-radius: 24px;\\n    flex-direction: column;\\n    padding: 18px;\\n\\n}\\n.sidebar > *{\\n\\n    flex-basis: 30%;\\n}\\n\\n.sidebar button{\\n    height: 42px;\\n    width: 90%;\\n    text-align: start;\\n}\\n.user-projects{\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: flex-start;\\n    width: 100%;\\n    gap:10px;\\n    max-height: 250px;\\n    overflow-y: auto;\\n    flex-shrink: 0\\n}\\n\\n\\n.user-projects button{\\n    height: 42px;\\n    min-height: 42px;\\n    width: 90%;\\n\\n}\\n.user-projects button:hover{\\n    background-color: rgb(240, 203, 134);\\n\\n}\\n\\n\\n.highlighted{\\n    background-color: rgb(240, 203, 134);\\n    border-radius: 4px;\\n}\\n\\n\\n\\n.default-projects-list{\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: space-evenly;\\n    align-items: flex-start;\\n\\n\\n}\\n.projects-list{\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: flex-start;\\n    align-items: flex-start;\\n\\n}\\n\\n\\n.default-projects-list > *:hover{\\n\\n    background-color: rgb(240, 203, 134);\\n\\n}\\n\\n.project-name-input{\\n    display: none;\\n}\\n\\n\\n\\n.projects-title{\\n    color: rgb(109, 109, 109);\\n    font-size: 24px;\\n}\\n\\n\\n\\n\\nbutton{\\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n    border: none;\\n    background-color: rgb(255, 242, 225);\\n    font-size: 18px;\\n    color: rgb(143, 143, 143);\\n    font-weight: 600;\\n    cursor: pointer;\\n    transition: background-color 0.2s;\\n\\n}\\n\\n.todo-container{\\n    height: 100%;\\n    width: 100%;\\n    padding: 24px;\\n    grid-area: 2/2/3/3;\\n    display: flex;\\n    flex-direction: column;\\n    /* grid-template: 0.25fr 1fr/1fr; */\\n    box-sizing: border-box;\\n\\n}\\n.todo-container > div{\\n}\\n\\n.task{\\n    padding: 12px;\\n    margin: 8px;\\n    display: flex;\\n    align-items: center;\\n    background-color: rgb(255, 242, 225);\\n    border-radius: 4px;\\n    justify-content: space-between;\\n    padding-left: 12px;\\n    padding-right: 24px;\\n    width: 650px;\\n    height: 75px;\\n    white-space: nowrap;\\n    box-sizing: border-box;\\n    transition: box-shadow 0.12s;\\n}\\n\\n.task:hover{\\n    box-shadow: 5px 1px 15px -7px rgba(0,0,0,0.32);\\n}\\n\\n.task *{\\n    margin-top: 0px;\\n    margin-bottom: 0px;\\n}\\n\\n.task-left{\\n    display: flex;\\n    align-items: center;\\n    \\n\\n}\\n\\n.task-center{\\n    overflow: hidden;\\n    text-overflow:ellipsis; \\n    width: 400px;\\n    display: flex;\\n    margin-left: 24px;\\n}\\n\\n.task-center p{\\n  white-space: nowrap;\\n  overflow: hidden;\\n  text-overflow:ellipsis; \\n  color: rgb(143, 143, 143);\\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n\\n\\n}\\n\\n.task-right{\\n    display: flex;\\n    align-items: center;\\n    gap: 18px;\\n}\\n\\n\\ni{\\n    cursor: pointer;\\n}\\n\\ni:hover{\\n    color: rgb(190, 125, 71) !important;\\n}\\n\\n\\n\\n\\n\\n\\nul{\\n    position: relative;\\n    top: 24px;\\n    right: 64px;\\n    gap: 4px;\\n    display: flex;\\n    flex-direction: column;\\n}\\n\\nul > div{\\n\\n    \\n    background-color: rgb(240, 203, 134);\\n    color: rgb(255, 255, 255);\\n    font-weight: 500;\\n    height: 20px;\\n    width: 50px;\\n    border-radius: 4px;\\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n    font-size: 12px;\\n    padding-left: 8px;\\n    list-style: none;\\n    position: relative;\\n    display: flex;\\n    justify-content: flex-start;\\n    align-items: center;\\n    cursor: pointer;\\n\\n    \\n}\\n\\n.dropdown-container{\\n    \\n    position: relative;\\n    width: 0;\\n    height: 0;\\n\\n}\\n\\n\\nul>div:hover{\\n    background-color: rgb(240, 210, 156);\\n\\n}\\n\\n\\n\\n.task h1{\\n    color: rgb(109, 109, 109);\\n    margin-left: 4px;\\n    font-size: 24px;\\n    font-weight: 500;\\n\\n}\\n\\n.task h2 {\\n    color: rgb(143, 143, 143);\\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n    font-size: 18px;\\n}\\n\\n.add-task{\\n    display: flex;\\n    justify-content: flex-start;\\n    justify-content: space-between;\\n    align-items: center;\\n    gap: 4px;\\n    grid-area: 2/1/3/2;\\n}\\n\\n.add-task-button{\\n    background-color: white;\\n    display: flex;\\n    align-items: center;\\n    gap: 8px;\\n}\\n\\n.add-task h2{\\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n    font-size: 24px;\\n    color: rgb(109, 109, 109);\\n\\n}\\n\\n.tasks{\\n    max-height: 460px;\\n    overflow-y: auto;\\n}\\n\\n#modal-overlay {\\n    position: fixed;\\n    top: 0;\\n    left: 0;\\n    width: 100%;\\n    height: 100%;\\n    background-color: rgba(0, 0, 0, 0.5);\\n    display: none;\\n    flex-direction: column;\\n    justify-content: center;\\n    align-items: center;\\n  }\\n\\n  #modal-content {\\n    background-color: #fff;\\n    border-radius: 4px;\\n    height: 450px;\\n    width: 600px;\\n    display: grid;\\n    grid-template: 0.2fr 1fr/1fr;\\n  }\\n\\n  .modal-header{\\n      display: flex;\\n      align-items: center;\\n      grid-area: 1/1/2/2;\\n      background-color: rgb(240, 203, 134);\\n      border-top-left-radius: 4px;\\n      border-top-right-radius: 4px;\\n\\n  }\\n  .modal-header h1{\\n      font-size: 32px;\\n      margin: 0;\\n      margin-left: 12px;\\n      margin-top: 12px;\\n      margin-bottom: 12px;\\n      \\n  }\\n\\n  .modal-form{\\n      display: flex;\\n      justify-content: flex-start;\\n      padding: 24px;\\n      flex-direction: column;\\n  }\\n\\n  .modal-form > form{\\n      display: flex;\\n      flex-direction: column;\\n      justify-content: flex-start;\\n      width: 75%;\\n      gap: 8px;\\n  }\\n\\n  #modal-overlay-2{\\n    position: fixed;\\n    top: 0;\\n    left: 0;\\n    width: 100%;\\n    height: 100%;\\n    background-color: rgba(0, 0, 0, 0.5);\\n    display: none;\\n    flex-direction: column;\\n    justify-content: center;\\n    align-items: center;\\n  }\\n\\n  #modal-content-2{\\n    background-color: #fff;\\n    border-radius: 4px;\\n    height: 200px;\\n    width: 500px;\\n    display: grid;\\n    grid-template: 0.2fr 1fr/1fr;\\n  }\\n\\n  .modal-delete-project{\\n      display: flex;\\n      flex-direction: column;\\n      padding: 12px;\\n      gap: 48px;\\n      justify-content: center;\\n\\n\\n\\n  }\\n\\n  .modal-delete-project > h1{\\n    color:rgb(110, 110, 110) ;\\n    font-size: 24px;\\n  }\\n  .project-delete-buttons{\\n      display: flex;\\n      justify-content: space-evenly;\\n      \\n  }\\n\\n\\n\\n  form > input, form > textarea{\\n      border: none;\\n      border-bottom: solid rgb(207, 150, 44) 1px;\\n      margin: 12px 2px;\\n  }\\n\\n  .projects-list input{\\n    border: none;\\n    border-bottom: solid rgb(207, 150, 44) 1px;\\n    margin: 12px 2px;\\n    background-color: rgb(255, 242, 225);\\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n    width: 75%;\\n    color: rgb(110, 110, 110);\\n    font-size: 16px;\\n    font-weight: 300;\\n\\n  }\\n\\n  .project-name-input{\\n    display: none;\\n    gap:8px;\\n    font-weight: 300;\\n    font-size: 16px;\\n  }\\n\\n  .project-name-input-buttons{\\n    display: flex;\\n    flex-direction: column;\\n    gap: 4px;\\n\\n\\n  }\\n\\n\\n.project-name-input-buttons > :nth-child(1){\\n    \\n    color: rgb(13, 148, 13);\\n\\n  }\\n  .project-name-input-buttons > :nth-child(2){\\n    \\n    color: rgb(201, 20, 20);\\n\\n  }\\n\\n\\n \\n\\n  form > input{\\n      font-size: 24px;\\n      \\n  }\\n\\nform > textarea{\\n      font-size: 18px;\\n      height: 48px;\\n      \\n  }\\nform > input[type='date']{\\n    color: rgb(131, 131, 131);\\n    width: 50%;\\n}\\n\\n.priority-select{\\n    margin-top: 12px;\\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n    color: rgb(131, 131, 131);\\n    font-size: 24px;\\n    display: flex;\\n    align-items: center;\\n    gap: 12px;\\n}\\n\\n.submit-task-button{\\n    height: 60px;\\n    width: 60px;\\n    align-self: flex-end;\\n    background-color: white;\\n    border: solid 2px rgb(255, 255, 255);\\n    background-color: rgb(240, 203, 134);\\n    border-radius: 50%;\\n    margin-right: 8px;\\n    box-shadow: 5px 5px 13px 3px rgba(0,0,0,0.23);\\n    border: none;\\n    transition: box-shadow 0.2s;\\n\\n}\\n\\n.submit-task-button:active{\\n    box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.23);\\n\\n    \\n}\\n\\n\\n\\ninput[type=\\\"radio\\\"]{\\n    appearance: none;\\n    margin: 0;\\n    height: 30px;\\n    width: 55px;\\n    border-radius: px;\\n   \\n  \\n\\n}\\n\\n#radio-form > input:nth-child(1){\\n    height: 32px;\\n    width: 32px;\\n    border: solid 2px rgb(5, 163, 0);\\n    color: rgb(5, 163, 0);\\n    border-radius: 50%;\\n    transition: background-color 0.2s;\\n}\\n\\n#radio-form > input:nth-child(1):hover{\\n   \\n    background-color: rgb(5, 163, 0);\\n    color: white;\\n}\\n#radio-form > input:nth-child(1):checked{\\n   \\n    background-color: rgb(5, 163, 0);\\n    color: white;\\n} \\n\\n\\n#radio-form > input:nth-child(2){\\n    height: 32px;\\n    width: 32px;\\n    border: solid 2px rgb(247, 203, 59);\\n    border-radius: 50%;\\n    color: rgb(247, 203, 59);\\n    transition: background-color 0.2s;\\n}  \\n#radio-form > :nth-child(2):hover{\\n   \\n    background-color: rgb(247, 203, 59);\\n    color: white;\\n     \\n }\\n #radio-form > :nth-child(2):checked{\\n   \\n    background-color: rgb(247, 203, 59);\\n    color: white;\\n     \\n } \\n\\n\\n #radio-form > input:nth-child(3){\\n    height: 32px;\\n    width: 32px;\\n    border: solid 2px rgb(199, 68, 68);\\n    border-radius: 50%;\\n    color: rgb(199, 68, 68);\\n    transition: background-color 0.2s;\\n\\n}\\n#radio-form > input:nth-child(3):hover{\\n   \\n    background-color: rgb(199, 68, 68);\\n    color: white;\\n     \\n }\\n #radio-form > input:nth-child(3):checked{\\n   \\n    background-color: rgb(199, 68, 68);\\n    color: white;\\n     \\n } \\n\\n\\n\\n\\n.priority-select > h1{\\n    color:rgb(131, 131, 131) ;\\n    font-weight: 400;\\n    font-size: 24px;\\n}\\n\\n\\n\\n::placeholder{\\n    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n    color:rgb(131, 131, 131) ;\\n\\n}\\n\\n\\n\\n\"],\"sourceRoot\":\"\"}]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n","\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};","\"use strict\";\n\nmodule.exports = function (item) {\n  var content = item[1];\n  var cssMapping = item[3];\n  if (!cssMapping) {\n    return content;\n  }\n  if (typeof btoa === \"function\") {\n    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));\n    var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n    var sourceMapping = \"/*# \".concat(data, \" */\");\n    return [content].concat([sourceMapping]).join(\"\\n\");\n  }\n  return [content].join(\"\\n\");\n};","\n      import API from \"!../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\";\n      import domAPI from \"!../node_modules/style-loader/dist/runtime/styleDomAPI.js\";\n      import insertFn from \"!../node_modules/style-loader/dist/runtime/insertBySelector.js\";\n      import setAttributes from \"!../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\";\n      import insertStyleElement from \"!../node_modules/style-loader/dist/runtime/insertStyleElement.js\";\n      import styleTagTransformFn from \"!../node_modules/style-loader/dist/runtime/styleTagTransform.js\";\n      import content, * as namedExport from \"!!../node_modules/css-loader/dist/cjs.js!./style.css\";\n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = styleTagTransformFn;\noptions.setAttributes = setAttributes;\n\n      options.insert = insertFn.bind(null, \"head\");\n    \noptions.domAPI = domAPI;\noptions.insertStyleElement = insertStyleElement;\n\nvar update = API(content, options);\n\n\n\nexport * from \"!!../node_modules/css-loader/dist/cjs.js!./style.css\";\n       export default content && content.locals ? content.locals : undefined;\n","\"use strict\";\n\nvar stylesInDOM = [];\nfunction getIndexByIdentifier(identifier) {\n  var result = -1;\n  for (var i = 0; i < stylesInDOM.length; i++) {\n    if (stylesInDOM[i].identifier === identifier) {\n      result = i;\n      break;\n    }\n  }\n  return result;\n}\nfunction modulesToDom(list, options) {\n  var idCountMap = {};\n  var identifiers = [];\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i];\n    var id = options.base ? item[0] + options.base : item[0];\n    var count = idCountMap[id] || 0;\n    var identifier = \"\".concat(id, \" \").concat(count);\n    idCountMap[id] = count + 1;\n    var indexByIdentifier = getIndexByIdentifier(identifier);\n    var obj = {\n      css: item[1],\n      media: item[2],\n      sourceMap: item[3],\n      supports: item[4],\n      layer: item[5]\n    };\n    if (indexByIdentifier !== -1) {\n      stylesInDOM[indexByIdentifier].references++;\n      stylesInDOM[indexByIdentifier].updater(obj);\n    } else {\n      var updater = addElementStyle(obj, options);\n      options.byIndex = i;\n      stylesInDOM.splice(i, 0, {\n        identifier: identifier,\n        updater: updater,\n        references: 1\n      });\n    }\n    identifiers.push(identifier);\n  }\n  return identifiers;\n}\nfunction addElementStyle(obj, options) {\n  var api = options.domAPI(options);\n  api.update(obj);\n  var updater = function updater(newObj) {\n    if (newObj) {\n      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {\n        return;\n      }\n      api.update(obj = newObj);\n    } else {\n      api.remove();\n    }\n  };\n  return updater;\n}\nmodule.exports = function (list, options) {\n  options = options || {};\n  list = list || [];\n  var lastIdentifiers = modulesToDom(list, options);\n  return function update(newList) {\n    newList = newList || [];\n    for (var i = 0; i < lastIdentifiers.length; i++) {\n      var identifier = lastIdentifiers[i];\n      var index = getIndexByIdentifier(identifier);\n      stylesInDOM[index].references--;\n    }\n    var newLastIdentifiers = modulesToDom(newList, options);\n    for (var _i = 0; _i < lastIdentifiers.length; _i++) {\n      var _identifier = lastIdentifiers[_i];\n      var _index = getIndexByIdentifier(_identifier);\n      if (stylesInDOM[_index].references === 0) {\n        stylesInDOM[_index].updater();\n        stylesInDOM.splice(_index, 1);\n      }\n    }\n    lastIdentifiers = newLastIdentifiers;\n  };\n};","\"use strict\";\n\nvar memo = {};\n\n/* istanbul ignore next  */\nfunction getTarget(target) {\n  if (typeof memo[target] === \"undefined\") {\n    var styleTarget = document.querySelector(target);\n\n    // Special case to return head of iframe instead of iframe itself\n    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n      try {\n        // This will throw an exception if access to iframe is blocked\n        // due to cross-origin restrictions\n        styleTarget = styleTarget.contentDocument.head;\n      } catch (e) {\n        // istanbul ignore next\n        styleTarget = null;\n      }\n    }\n    memo[target] = styleTarget;\n  }\n  return memo[target];\n}\n\n/* istanbul ignore next  */\nfunction insertBySelector(insert, style) {\n  var target = getTarget(insert);\n  if (!target) {\n    throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.\");\n  }\n  target.appendChild(style);\n}\nmodule.exports = insertBySelector;","\"use strict\";\n\n/* istanbul ignore next  */\nfunction insertStyleElement(options) {\n  var element = document.createElement(\"style\");\n  options.setAttributes(element, options.attributes);\n  options.insert(element, options.options);\n  return element;\n}\nmodule.exports = insertStyleElement;","\"use strict\";\n\n/* istanbul ignore next  */\nfunction setAttributesWithoutAttributes(styleElement) {\n  var nonce = typeof __webpack_nonce__ !== \"undefined\" ? __webpack_nonce__ : null;\n  if (nonce) {\n    styleElement.setAttribute(\"nonce\", nonce);\n  }\n}\nmodule.exports = setAttributesWithoutAttributes;","\"use strict\";\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj) {\n  var css = \"\";\n  if (obj.supports) {\n    css += \"@supports (\".concat(obj.supports, \") {\");\n  }\n  if (obj.media) {\n    css += \"@media \".concat(obj.media, \" {\");\n  }\n  var needLayer = typeof obj.layer !== \"undefined\";\n  if (needLayer) {\n    css += \"@layer\".concat(obj.layer.length > 0 ? \" \".concat(obj.layer) : \"\", \" {\");\n  }\n  css += obj.css;\n  if (needLayer) {\n    css += \"}\";\n  }\n  if (obj.media) {\n    css += \"}\";\n  }\n  if (obj.supports) {\n    css += \"}\";\n  }\n  var sourceMap = obj.sourceMap;\n  if (sourceMap && typeof btoa !== \"undefined\") {\n    css += \"\\n/*# sourceMappingURL=data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), \" */\");\n  }\n\n  // For old IE\n  /* istanbul ignore if  */\n  options.styleTagTransform(css, styleElement, options.options);\n}\nfunction removeStyleElement(styleElement) {\n  // istanbul ignore if\n  if (styleElement.parentNode === null) {\n    return false;\n  }\n  styleElement.parentNode.removeChild(styleElement);\n}\n\n/* istanbul ignore next  */\nfunction domAPI(options) {\n  if (typeof document === \"undefined\") {\n    return {\n      update: function update() {},\n      remove: function remove() {}\n    };\n  }\n  var styleElement = options.insertStyleElement(options);\n  return {\n    update: function update(obj) {\n      apply(styleElement, options, obj);\n    },\n    remove: function remove() {\n      removeStyleElement(styleElement);\n    }\n  };\n}\nmodule.exports = domAPI;","\"use strict\";\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\nmodule.exports = styleTagTransform;","import { addProjectEventListeners,displayProjectTasks,removeTask } from \"./index\"\n\nconst mainContainer = document.querySelector('.main-container')\nconst header = document.querySelector('.header')\nconst sidebar = document.querySelector('.sidebar')\nexport const taskContainer = document.querySelector('.tasks')\nexport const projects = document.querySelector('.default-projects-list')\nconst userProjectContainer = document.querySelector('.user-projects')\n\nexport const addProjectButton = document.querySelector('.add-project-button')\nexport const addTaskButton = document.querySelector('.add-task-button')\n\nexport const modalOverlay = document.querySelector('#modal-overlay')\nexport const submitButton = document.querySelector('.submit-task-button')\n\nexport const confirmProjectButton = document.querySelector('.confirm-project') \nexport const cancelProjectButton = document.querySelector('.cancel-project')\nexport const projectNameInput = document.querySelector('.project-name-input-field')\n\nexport const deleteProject = document.querySelector('.delete-project')\nexport const deleteProjectConfirm = document.querySelector('.confirm-project-delete')\nexport const deleteProjectCancel = document.querySelector('.cancel-project-delete')\nexport const modalOverlay2 = document.querySelector('#modal-overlay-2')\n\n\nlet projectNameDiv = document.body.querySelector('.project-name-input')\n\n\n\nexport let projectList = [projects.children[0],projects.children[1],projects.children[2]]\n\n\n\nexport function drawNewProjectContainer(name){\n\n    let newProjectContainer = document.createElement('button')\n    newProjectContainer.innerText = name\n    userProjectContainer.appendChild(newProjectContainer)\n    projectNameDiv.style.display = 'none'\n    projectList.push(newProjectContainer)\n\n\nfor(let i = 0; i < projectList.length;i++){\n    projectList[i].addEventListener('click', ()=>{\n \n\n        for(let j = 0; j < projectList.length;j++){\n            projectList[j].classList.remove('highlighted');\n        }\n  \n        projectList[i].classList.add('highlighted');\n\n        hideProjects()\n        displayProjectTasks(projectList[i].innerText)\n\n});\n}\n}    \n\nexport function hideProjects(){\n    let length = taskContainer.children.length\n    for(let i = 0; i < length;i++){\n        taskContainer.children[0].remove()\n    }\n}\n\n\n\nexport function getProjectName(){\n\n    projectNameDiv.style.display = 'flex'\n\n}\n\n\ncancelProjectButton.addEventListener('click',()=>{\n    projectNameDiv.style.display = 'none'\n})\n\n\nexport function drawTask(toDo){\n\n    const taskDiv = document.createElement('div')\n    const taskLeft = document.createElement('div')\n    const taskRight = document.createElement('div')\n    const taskCenter = document.createElement('div')\n\n\n    const checkbox = document.createElement('input')\n    checkbox.classList.add('checkbox')\n    checkbox.type = 'checkbox'\n    \n\n    const taskName = document.createElement('h1')\n    taskName.innerHTML = toDo.title\n\n    taskLeft.appendChild(checkbox)\n    taskLeft.appendChild(taskName)\n\n    const taskNotes = document.createElement('p')\n    taskNotes.innerHTML = toDo.description\n\n    taskCenter.appendChild(taskNotes)\n\n\n    const viewDetails = document.createElement('i')\n    viewDetails.classList.add('fa-solid')\n    viewDetails.classList.add('fa-eye')\n    viewDetails.style = 'color:rgb(109, 109, 109);'\n\n\n    const garbageButton = document.createElement('i')\n    garbageButton.classList.add('fa-solid')\n    garbageButton.classList.add('fa-trash')\n    garbageButton.style = 'color:rgb(109, 109, 109);'\n\n\n    const date = document.createElement('h2')\n    date.innerText = toDo.dueDate\n\n    taskRight.appendChild(date)\n    taskRight.appendChild(viewDetails)\n    taskRight.appendChild(garbageButton)\n\n    taskDiv.classList.add('task')\n    taskLeft.classList.add('task-left')\n    taskRight.classList.add('task-right')\n    taskCenter.classList.add('task-center')\n\n    taskDiv.appendChild(taskLeft)\n    taskDiv.appendChild(taskCenter)\n    taskDiv.appendChild(taskRight)\n\n\n    taskContainer.appendChild(taskDiv)\n\n    garbageButton.addEventListener('click',()=>{\n        removeTask(toDo,getCurrentContainer())\n        eraseTask(event.target)\n    })\n\n}\n\n\nfunction eraseTask(clickedElement){\n\n    clickedElement.parentNode.parentNode.remove()\n\n}\n\n\n\n\naddTaskButton.addEventListener('click', ()=>{\n\n    modalOverlay.style.display = 'flex'\n\n\n\n})\n\n\n\nexport function gatherTaskInfo(){\n\n    let taskName = document.querySelector('#task-name').value\n    let taskDescription = document.querySelector('#task-description').value\n    let taskDate = document.querySelector('#task-date').value\n    let taskPrioLow = document.querySelector('#prio-low')\n    let taskPrioMed = document.querySelector('#prio-med')\n    let taskPrioHigh = document.querySelector('#prio-high')\n\n    let prio\n\n    if(taskPrioLow.checked){\n        prio = 'low'\n    } else if (taskPrioMed.checked){\n        prio = 'med'\n    } else if (taskPrioHigh.checked){\n        prio = 'high'\n    }\n\n    const taskInfo = {\n\n        taskName : taskName,\n        taskDescription : taskDescription,\n        taskDate : taskDate,\n        taskPrio : prio\n\n    }\n\n    return taskInfo\n\n}\n\n\nexport function getCurrentContainer(){\n        for(let i = 0; i < projectList.length;i++){\n            if(projectList[i].classList.contains('highlighted')){\n                return projectList[i].innerText\n            }\n        }\n        return 'Inbox'\n}\n\n\nexport function eraseProjectContainer(projectName){\n    \n    let length = userProjectContainer.children.length\n\n    for(let i = 0; i < length;i++){\n        if(userProjectContainer.children[i].innerHTML === projectName){\n            userProjectContainer.children[i].remove()\n        }\n    }\n\n}\n\n","import '../src/style.css';\nimport {deleteProjectCancel,modalOverlay2,deleteProjectConfirm,eraseProjectContainer,deleteProject, drawTask,hideProjects,getCurrentContainer,cancelProjectButton,projects,projectList,confirmProjectButton,projectNameInput,addProjectButton,drawNewProjectContainer,getProjectName,addTaskButton,modalOverlay,submitButton,gatherTaskInfo} from './DOMstuff';\nimport {updateProjectsMap,getProjectsFromStorage,updateProjectsInStorage,removeTaskFromProject,emptyProjectArray,addToContainer,isTaskDueToday,isTaskDueThisWeek,createToDo,inbox,createProject, projectsMap,getProjectsMap} from './logic'\n\n\nupdateProjectsMap()\ndisplayProjectTasks(' Inbox')\n\n\nfunction drawExistingProjects(){\n\n    let existingProjects = getProjectsFromStorage()\n\n    const keysArray = Array.from(existingProjects.keys());\n\n\n    for(let i = 3; i < existingProjects.size; i++){\n\n\n        drawNewProjectContainer(keysArray[i])\n    }\n\n \n}\n\ndrawExistingProjects()\n\n\n\nsubmitButton.addEventListener('click',()=>{\n\n    \n    let taskInfo = gatherTaskInfo()\n    let task = createToDo(taskInfo.taskName,taskInfo.taskDescription,taskInfo.taskDate,taskInfo.prio)\n    let currentContainerName = getCurrentContainer()\n\n        let projectsMap = getProjectsMap()\n        \n        let currentContainer = projectsMap.get(currentContainerName)\n        if(currentContainerName === \" Today\" || currentContainerName === \" This week\"){\n            addToContainer(task,projectsMap.get(\" Inbox\"))\n            task.addToContainer(\" Inbox\")\n\n\n        } else {\n            addToContainer(task,currentContainer)\n            task.addToContainer(currentContainerName)\n            drawTask(task)\n\n        }\n    \n    \n    if(isTaskDueToday(task)){\n        addToContainer(task,projectsMap.get(\" Today\"))\n        task.addToContainer(\" Today\")\n\n    }\n\n    if(isTaskDueThisWeek(task)){\n\n        addToContainer(task,projectsMap.get(\" This week\"))\n        task.addToContainer(\" This week\")\n\n    }\n\n    updateProjectsInStorage()\n\n    modalOverlay.style.display = 'none'\n\n})\n\n\nexport function addProjectEventListeners(){\n\n    for(let i = 0; i < projectList.length;i++){\n        projectList[i].addEventListener('click', ()=>{\n     \n    \n            for(let j = 0; j < projects.children.length;j++){\n                projectList[j].classList.remove('highlighted');\n            }\n      \n            projectList[i].classList.add('highlighted');\n            hideProjects()\n\n            displayProjectTasks(projectList[i].innerText)\n            \n    });\n    }\n}\n\naddProjectEventListeners()\n\naddProjectButton.addEventListener('click',()=>{\n\n    getProjectName()    \n\n})\n\nconfirmProjectButton.addEventListener('click', ()=>{\n    let newProjectName = projectNameInput.value\n    let newProjectObject = createProject(newProjectName)\n    projectsMap.set(newProjectName,newProjectObject)\n\n    updateProjectsInStorage(newProjectName)\n    \n    drawNewProjectContainer(newProjectName)\n})\n\n// function addProjectToLocalStorage(newProjectName){\n\n//     let project = projectmap.get(newProjectName)\n\n//     let serializedProject = JSON.stringify(project)\n//     localStorage.\n\n\n// }\n\n\nexport function displayProjectTasks(containerName){\n\n    let map = getProjectsMap()\n\n\n    for (const [key, value] of map) {\n        if(key === containerName){\n            let currentProjectArray = projectsMap.get(key)\n            for(let i = 0; i < currentProjectArray.length;i++){\n                drawTask(currentProjectArray[i])\n            }\n        }\n      }\n      \n\n\n\n\n}\n\nexport function removeTask(task,projectName){\n\n    let projectsMap = getProjectsMap()\n    let projectArray = projectsMap.get(projectName)\n    let containers = task.containers\n\n    let arrayLength = projectArray.length\n\n    for(let i = 0;i < containers.length;i++){\n        for(const key of projectsMap.keys()){\n            if(containers[i] === key){\n                removeTaskFromProject(task,key)\n            }\n        }\n    }\n\n    updateProjectsInStorage()\n\n}\n\nfunction removeProject(projectName){\n\n\n    hideProjects()\n    emptyProjectArray(projectName)\n    eraseProjectContainer(projectName)\n\n\n\n}\n\n\n\ndeleteProjectConfirm.addEventListener('click', ()=>{\n    let currentContainer = getCurrentContainer()\n     if (currentContainer === (' Inbox' || ' Today' || ' This week')){\n         return\n     } else {\n        removeProject(currentContainer)\n        modalOverlay2.style.display = 'none'\n        // emptyProjectArray(currentContainer)\n        updateProjectsInStorage()\n\n     }\n })\n\n deleteProject.addEventListener('click',()=>{\n    let currentContainer = getCurrentContainer()\n\n    if (currentContainer === (' Inbox' || ' Today' || ' This week')){\n        return\n    } else {\n\n        modalOverlay2.style.display = 'flex'\n        let modalHeader = document.querySelector('#delete-project-header')\n        modalHeader.innerText = `Delete project ${currentContainer}?`\n    }\n })\n\n deleteProjectCancel.addEventListener('click',()=>{\n    modalOverlay2.style.display = 'none'\n\n })\n\n\n\n\n\n\n\n\n\n\n\n\n\n","import { projects } from \"./DOMstuff\"\n\nlet thisWeek = []\nlet today = []\n\nexport let inbox = []\n\nexport let projectsMap = new Map([\n    \n    [\" Inbox\", inbox],\n    [\" Today\", today],\n    [\" This week\", thisWeek]\n\n\n])\n\n\n\nexport function updateProjectsMap(){\n\n    projectsMap = getProjectsFromStorage()\n\n} \n\nexport function updateProjectsInStorage(){\n\n    let serializedProjects = JSON.stringify([...projectsMap])\n    localStorage.setItem('projects', serializedProjects)\n\n\n}\n\nexport function getProjectsFromStorage(){\n\n    let projects =  JSON.parse(localStorage.getItem('projects'))\n    return new Map(projects)\n\n}\n\n\nexport function addStoredTasks(){\n\n\n\n}\n\n\n\n\nexport function getProjectsMap(){\n    return projectsMap\n}\n\nexport function removeTaskFromProject(task,project){\n    let removedProject = projectsMap.get(project)\n    for(let i = 0; i < removedProject.length;i++){\n        if(removedProject[i].title === task.title){\n            removedProject.splice(i,1)\n        }\n    }\n}\n\nconst toDoFactory = (title,description,dueDate,priority) => {\n\n    let toDoItem = {\n        title: title,\n        description: description,\n        dueDate: dueDate,\n        priority: priority,\n        containers : [],\n\n        addToContainer : function(container) {\n            for(const key of projectsMap.keys()){\n                if(container === key){\n                    toDoItem.containers.push(key)\n                }\n            }\n        }\n      }\n\n     \n\n\n    return {toDoItem}\n}\n\n\n\n\n\n\nexport function createToDo(title,description,dueDate,priority){\n    let newToDo = toDoFactory(title,description,dueDate,priority).toDoItem\n\n\n    return newToDo\n}\n\nexport function addToContainer(toDo,container){\n\n    container.push(toDo)\n}\n\n\n\nexport function createProject(title){\n    let newProject = []\n    return newProject\n}\n\n    const date = new Date()\n    let day = date.getDay()\n    let month = date.getMonth()\n    let year = date.getFullYear()\n\n\nexport function isTaskDueToday(toDo){\n\n\n   let fullDate = date.toISOString().slice(0,10)\n    if(toDo.dueDate == fullDate){\n        return true\n    }\n\n    return false\n\n}\n\n\nexport function isTaskDueThisWeek(toDo){\n\n\n    let fullDate = date.toISOString().slice(0,10)\n\n    let userDate = new Date(toDo.dueDate)\n\n    let difference = userDate - date\n    var differenceInDays = Math.floor(difference / (1000 * 60 * 60 * 24));\n    var isWithinWeek = Math.abs(differenceInDays) <= 7;\n\n\n\n\n    \n    if(isWithinWeek ){\n        return true\n    }\n\n    return false\n\n}\n    \n\nexport function emptyProjectArray(projectName){\n    projectsMap.get(projectName).length = 0\n}","// The module cache\nvar __webpack_module_cache__ = {};\n\n// The require function\nfunction __webpack_require__(moduleId) {\n\t// Check if module is in cache\n\tvar cachedModule = __webpack_module_cache__[moduleId];\n\tif (cachedModule !== undefined) {\n\t\treturn cachedModule.exports;\n\t}\n\t// Create a new module (and put it into the cache)\n\tvar module = __webpack_module_cache__[moduleId] = {\n\t\tid: moduleId,\n\t\t// no module.loaded needed\n\t\texports: {}\n\t};\n\n\t// Execute the module function\n\t__webpack_modules__[moduleId](module, module.exports, __webpack_require__);\n\n\t// Return the exports of the module\n\treturn module.exports;\n}\n\n","// getDefaultExport function for compatibility with non-harmony modules\n__webpack_require__.n = (module) => {\n\tvar getter = module && module.__esModule ?\n\t\t() => (module['default']) :\n\t\t() => (module);\n\t__webpack_require__.d(getter, { a: getter });\n\treturn getter;\n};","// define getter functions for harmony exports\n__webpack_require__.d = (exports, definition) => {\n\tfor(var key in definition) {\n\t\tif(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {\n\t\t\tObject.defineProperty(exports, key, { enumerable: true, get: definition[key] });\n\t\t}\n\t}\n};","__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))","// define __esModule on exports\n__webpack_require__.r = (exports) => {\n\tif(typeof Symbol !== 'undefined' && Symbol.toStringTag) {\n\t\tObject.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });\n\t}\n\tObject.defineProperty(exports, '__esModule', { value: true });\n};","__webpack_require__.nc = undefined;","","// startup\n// Load entry module and return exports\n// This entry module is referenced by other modules so it can't be inlined\nvar __webpack_exports__ = __webpack_require__(\"./src/index.js\");\n",""],"names":[],"sourceRoot":""}
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
+/*!*************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ "./node_modules/css-loader/dist/runtime/noSourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `html,body{
+    height: 100%;
+    margin: 0;
+
+}
+
+
+
+body{
+    background: hsla(337, 65%, 78%, 1);
+    background: linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);
+    background: -moz-linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);
+    background: -webkit-linear-gradient(90deg, hsla(337, 65%, 78%, 1) 31%, hsla(0, 100%, 82%, 1) 77%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    appearance: none;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    border: 2px solid rgb(240, 203, 134);
+
+
+  }
+
+  input[type="checkbox"]::before {
+    content: " ";
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    font-size: 1.2em;
+    visibility: hidden;
+  }
+  input[type="checkbox"]:hover{
+    background-color: rgb(21, 172, 71);
+
+  }
+ 
+  
+  input[type="checkbox"]:checked::before {
+    /* Use \`visibility\` instead of \`display\` to avoid recalculating layout */
+    visibility: visible;
+  }
+  
+  input[type="checkbox"]:disabled {
+    border-color: black;
+    background: #ddd;
+    color: gray;
+  }
+
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+}
+
+.main-container{
+    height: 700px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+
+    display: grid;
+
+    grid-template: 0.2fr 1fr/ 0.3fr 1fr;
+
+}
+
+
+.header{
+    grid-area: 1/1/2/3;
+    display: flex;
+    background-color: rgb(240, 203, 134);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 24px;
+    box-sizing: border-box;
+
+
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo > i{
+    margin-right: 24px;
+}
+
+
+.sidebar{
+    background-color: rgb(255, 242, 225);
+    grid-area: 2/1/3/2;
+    display: flex;
+    border-bottom-left-radius: 24px;
+    flex-direction: column;
+    padding: 18px;
+
+}
+.sidebar > *{
+
+    flex-basis: 30%;
+}
+
+.sidebar button{
+    height: 42px;
+    width: 90%;
+    text-align: start;
+}
+.user-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    gap:10px;
+    max-height: 250px;
+    overflow-y: auto;
+    flex-shrink: 0
+}
+
+
+.user-projects button{
+    height: 42px;
+    min-height: 42px;
+    width: 90%;
+
+}
+.user-projects button:hover{
+    background-color: rgb(240, 203, 134);
+
+}
+
+
+.highlighted{
+    background-color: rgb(240, 203, 134);
+    border-radius: 4px;
+}
+
+
+
+.default-projects-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+
+}
+.projects-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+
+.default-projects-list > *:hover{
+
+    background-color: rgb(240, 203, 134);
+
+}
+
+.project-name-input{
+    display: none;
+}
+
+
+
+.projects-title{
+    color: rgb(109, 109, 109);
+    font-size: 24px;
+}
+
+
+
+
+button{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    background-color: rgb(255, 242, 225);
+    font-size: 18px;
+    color: rgb(143, 143, 143);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+}
+
+.todo-container{
+    height: 100%;
+    width: 100%;
+    padding: 24px;
+    grid-area: 2/2/3/3;
+    display: flex;
+    flex-direction: column;
+    /* grid-template: 0.25fr 1fr/1fr; */
+    box-sizing: border-box;
+
+}
+.todo-container > div{
+}
+
+.task{
+    padding: 12px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 242, 225);
+    border-radius: 4px;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 24px;
+    width: 650px;
+    height: 75px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    transition: box-shadow 0.12s;
+}
+
+.task:hover{
+    box-shadow: 5px 1px 15px -7px rgba(0,0,0,0.32);
+}
+
+.task *{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.task-left{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.task-center{
+    overflow: hidden;
+    text-overflow:ellipsis; 
+    width: 400px;
+    display: flex;
+    margin-left: 24px;
+}
+
+.task-center p{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis; 
+  color: rgb(143, 143, 143);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.task-right{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+
+i{
+    cursor: pointer;
+}
+
+i:hover{
+    color: rgb(190, 125, 71) !important;
+}
+
+
+
+
+
+
+ul{
+    position: relative;
+    top: 24px;
+    right: 64px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul > div{
+
+    
+    background-color: rgb(240, 203, 134);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    height: 20px;
+    width: 50px;
+    border-radius: 4px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    padding-left: 8px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+
+    
+}
+
+.dropdown-container{
+    
+    position: relative;
+    width: 0;
+    height: 0;
+
+}
+
+
+ul>div:hover{
+    background-color: rgb(240, 210, 156);
+
+}
+
+
+
+.task h1{
+    color: rgb(109, 109, 109);
+    margin-left: 4px;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.task h2 {
+    color: rgb(143, 143, 143);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.add-task{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    grid-area: 2/1/3/2;
+}
+
+.add-task-button{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.add-task h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    color: rgb(109, 109, 109);
+
+}
+
+.tasks{
+    max-height: 460px;
+    overflow-y: auto;
+}
+
+#modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #modal-content {
+    background-color: #fff;
+    border-radius: 4px;
+    height: 450px;
+    width: 600px;
+    display: grid;
+    grid-template: 0.2fr 1fr/1fr;
+  }
+
+  .modal-header{
+      display: flex;
+      align-items: center;
+      grid-area: 1/1/2/2;
+      background-color: rgb(240, 203, 134);
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+
+  }
+  .modal-header h1{
+      font-size: 32px;
+      margin: 0;
+      margin-left: 12px;
+      margin-top: 12px;
+      margin-bottom: 12px;
+      
+  }
+
+  .modal-form{
+      display: flex;
+      justify-content: flex-start;
+      padding: 24px;
+      flex-direction: column;
+  }
+
+  .modal-form > form{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 75%;
+      gap: 8px;
+  }
+
+  #modal-overlay-2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #modal-content-2{
+    background-color: #fff;
+    border-radius: 4px;
+    height: 200px;
+    width: 500px;
+    display: grid;
+    grid-template: 0.2fr 1fr/1fr;
+  }
+
+  .modal-delete-project{
+      display: flex;
+      flex-direction: column;
+      padding: 12px;
+      gap: 48px;
+      justify-content: center;
+
+
+
+  }
+
+  .modal-delete-project > h1{
+    color:rgb(110, 110, 110) ;
+    font-size: 24px;
+  }
+  .project-delete-buttons{
+      display: flex;
+      justify-content: space-evenly;
+      
+  }
+
+
+
+  form > input, form > textarea{
+      border: none;
+      border-bottom: solid rgb(207, 150, 44) 1px;
+      margin: 12px 2px;
+  }
+
+  .projects-list input{
+    border: none;
+    border-bottom: solid rgb(207, 150, 44) 1px;
+    margin: 12px 2px;
+    background-color: rgb(255, 242, 225);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 75%;
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+    font-weight: 300;
+
+  }
+
+  .project-name-input{
+    display: none;
+    gap:8px;
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  .project-name-input-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+
+  }
+
+
+.project-name-input-buttons > :nth-child(1){
+    
+    color: rgb(13, 148, 13);
+
+  }
+  .project-name-input-buttons > :nth-child(2){
+    
+    color: rgb(201, 20, 20);
+
+  }
+
+
+ 
+
+  form > input{
+      font-size: 24px;
+      
+  }
+
+form > textarea{
+      font-size: 18px;
+      height: 48px;
+      
+  }
+form > input[type='date']{
+    color: rgb(131, 131, 131);
+    width: 50%;
+}
+
+.priority-select{
+    margin-top: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(131, 131, 131);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.submit-task-button{
+    height: 60px;
+    width: 60px;
+    align-self: flex-end;
+    background-color: white;
+    border: solid 2px rgb(255, 255, 255);
+    background-color: rgb(240, 203, 134);
+    border-radius: 50%;
+    margin-right: 8px;
+    box-shadow: 5px 5px 13px 3px rgba(0,0,0,0.23);
+    border: none;
+    transition: box-shadow 0.2s;
+
+}
+
+.submit-task-button:active{
+    box-shadow: 5px 5px 13px 0px rgba(0,0,0,0.23);
+
+    
+}
+
+
+
+input[type="radio"]{
+    appearance: none;
+    margin: 0;
+    height: 30px;
+    width: 55px;
+    border-radius: px;
+   
+  
+
+}
+
+#radio-form > input:nth-child(1){
+    height: 32px;
+    width: 32px;
+    border: solid 2px rgb(5, 163, 0);
+    color: rgb(5, 163, 0);
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+#radio-form > input:nth-child(1):hover{
+   
+    background-color: rgb(5, 163, 0);
+    color: white;
+}
+#radio-form > input:nth-child(1):checked{
+   
+    background-color: rgb(5, 163, 0);
+    color: white;
+} 
+
+
+#radio-form > input:nth-child(2){
+    height: 32px;
+    width: 32px;
+    border: solid 2px rgb(247, 203, 59);
+    border-radius: 50%;
+    color: rgb(247, 203, 59);
+    transition: background-color 0.2s;
+}  
+#radio-form > :nth-child(2):hover{
+   
+    background-color: rgb(247, 203, 59);
+    color: white;
+     
+ }
+ #radio-form > :nth-child(2):checked{
+   
+    background-color: rgb(247, 203, 59);
+    color: white;
+     
+ } 
+
+
+ #radio-form > input:nth-child(3){
+    height: 32px;
+    width: 32px;
+    border: solid 2px rgb(199, 68, 68);
+    border-radius: 50%;
+    color: rgb(199, 68, 68);
+    transition: background-color 0.2s;
+
+}
+#radio-form > input:nth-child(3):hover{
+   
+    background-color: rgb(199, 68, 68);
+    color: white;
+     
+ }
+ #radio-form > input:nth-child(3):checked{
+   
+    background-color: rgb(199, 68, 68);
+    color: white;
+     
+ } 
+
+
+
+
+.priority-select > h1{
+    color:rgb(131, 131, 131) ;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+
+::placeholder{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(131, 131, 131) ;
+
+}
+
+
+
+`, ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+module.exports = function (cssWithMappingToString) {
+  var list = [];
+
+  // return the list of modules as css string
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = "";
+      var needLayer = typeof item[5] !== "undefined";
+      if (item[4]) {
+        content += "@supports (".concat(item[4], ") {");
+      }
+      if (item[2]) {
+        content += "@media ".concat(item[2], " {");
+      }
+      if (needLayer) {
+        content += "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {");
+      }
+      content += cssWithMappingToString(item);
+      if (needLayer) {
+        content += "}";
+      }
+      if (item[2]) {
+        content += "}";
+      }
+      if (item[4]) {
+        content += "}";
+      }
+      return content;
+    }).join("");
+  };
+
+  // import a list of modules into the list
+  list.i = function i(modules, media, dedupe, supports, layer) {
+    if (typeof modules === "string") {
+      modules = [[null, modules, undefined]];
+    }
+    var alreadyImportedModules = {};
+    if (dedupe) {
+      for (var k = 0; k < this.length; k++) {
+        var id = this[k][0];
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+    for (var _k = 0; _k < modules.length; _k++) {
+      var item = [].concat(modules[_k]);
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        continue;
+      }
+      if (typeof layer !== "undefined") {
+        if (typeof item[5] === "undefined") {
+          item[5] = layer;
+        } else {
+          item[1] = "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {").concat(item[1], "}");
+          item[5] = layer;
+        }
+      }
+      if (media) {
+        if (!item[2]) {
+          item[2] = media;
+        } else {
+          item[1] = "@media ".concat(item[2], " {").concat(item[1], "}");
+          item[2] = media;
+        }
+      }
+      if (supports) {
+        if (!item[4]) {
+          item[4] = "".concat(supports);
+        } else {
+          item[1] = "@supports (".concat(item[4], ") {").concat(item[1], "}");
+          item[4] = supports;
+        }
+      }
+      list.push(item);
+    }
+  };
+  return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
+  \**************************************************************/
+/***/ ((module) => {
+
+
+
+module.exports = function (i) {
+  return i[1];
+};
+
+/***/ }),
+
+/***/ "./src/style.css":
+/*!***********************!*\
+  !*** ./src/style.css ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!./style.css */ "./node_modules/css-loader/dist/cjs.js!./src/style.css");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/***/ ((module) => {
+
+
+
+var stylesInDOM = [];
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+  for (var i = 0; i < stylesInDOM.length; i++) {
+    if (stylesInDOM[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+  return result;
+}
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var indexByIdentifier = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3],
+      supports: item[4],
+      layer: item[5]
+    };
+    if (indexByIdentifier !== -1) {
+      stylesInDOM[indexByIdentifier].references++;
+      stylesInDOM[indexByIdentifier].updater(obj);
+    } else {
+      var updater = addElementStyle(obj, options);
+      options.byIndex = i;
+      stylesInDOM.splice(i, 0, {
+        identifier: identifier,
+        updater: updater,
+        references: 1
+      });
+    }
+    identifiers.push(identifier);
+  }
+  return identifiers;
+}
+function addElementStyle(obj, options) {
+  var api = options.domAPI(options);
+  api.update(obj);
+  var updater = function updater(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {
+        return;
+      }
+      api.update(obj = newObj);
+    } else {
+      api.remove();
+    }
+  };
+  return updater;
+}
+module.exports = function (list, options) {
+  options = options || {};
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDOM[index].references--;
+    }
+    var newLastIdentifiers = modulesToDom(newList, options);
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+      var _index = getIndexByIdentifier(_identifier);
+      if (stylesInDOM[_index].references === 0) {
+        stylesInDOM[_index].updater();
+        stylesInDOM.splice(_index, 1);
+      }
+    }
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/insertBySelector.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
+  \********************************************************************/
+/***/ ((module) => {
+
+
+
+var memo = {};
+
+/* istanbul ignore next  */
+function getTarget(target) {
+  if (typeof memo[target] === "undefined") {
+    var styleTarget = document.querySelector(target);
+
+    // Special case to return head of iframe instead of iframe itself
+    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+      try {
+        // This will throw an exception if access to iframe is blocked
+        // due to cross-origin restrictions
+        styleTarget = styleTarget.contentDocument.head;
+      } catch (e) {
+        // istanbul ignore next
+        styleTarget = null;
+      }
+    }
+    memo[target] = styleTarget;
+  }
+  return memo[target];
+}
+
+/* istanbul ignore next  */
+function insertBySelector(insert, style) {
+  var target = getTarget(insert);
+  if (!target) {
+    throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+  }
+  target.appendChild(style);
+}
+module.exports = insertBySelector;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/insertStyleElement.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+
+
+/* istanbul ignore next  */
+function insertStyleElement(options) {
+  var element = document.createElement("style");
+  options.setAttributes(element, options.attributes);
+  options.insert(element, options.options);
+  return element;
+}
+module.exports = insertStyleElement;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
+  \**********************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+
+
+/* istanbul ignore next  */
+function setAttributesWithoutAttributes(styleElement) {
+  var nonce =  true ? __webpack_require__.nc : 0;
+  if (nonce) {
+    styleElement.setAttribute("nonce", nonce);
+  }
+}
+module.exports = setAttributesWithoutAttributes;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/styleDomAPI.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
+  \***************************************************************/
+/***/ ((module) => {
+
+
+
+/* istanbul ignore next  */
+function apply(styleElement, options, obj) {
+  var css = "";
+  if (obj.supports) {
+    css += "@supports (".concat(obj.supports, ") {");
+  }
+  if (obj.media) {
+    css += "@media ".concat(obj.media, " {");
+  }
+  var needLayer = typeof obj.layer !== "undefined";
+  if (needLayer) {
+    css += "@layer".concat(obj.layer.length > 0 ? " ".concat(obj.layer) : "", " {");
+  }
+  css += obj.css;
+  if (needLayer) {
+    css += "}";
+  }
+  if (obj.media) {
+    css += "}";
+  }
+  if (obj.supports) {
+    css += "}";
+  }
+  var sourceMap = obj.sourceMap;
+  if (sourceMap && typeof btoa !== "undefined") {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  }
+
+  // For old IE
+  /* istanbul ignore if  */
+  options.styleTagTransform(css, styleElement, options.options);
+}
+function removeStyleElement(styleElement) {
+  // istanbul ignore if
+  if (styleElement.parentNode === null) {
+    return false;
+  }
+  styleElement.parentNode.removeChild(styleElement);
+}
+
+/* istanbul ignore next  */
+function domAPI(options) {
+  if (typeof document === "undefined") {
+    return {
+      update: function update() {},
+      remove: function remove() {}
+    };
+  }
+  var styleElement = options.insertStyleElement(options);
+  return {
+    update: function update(obj) {
+      apply(styleElement, options, obj);
+    },
+    remove: function remove() {
+      removeStyleElement(styleElement);
+    }
+  };
+}
+module.exports = domAPI;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/styleTagTransform.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
+  \*********************************************************************/
+/***/ ((module) => {
+
+
+
+/* istanbul ignore next  */
+function styleTagTransform(css, styleElement) {
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = css;
+  } else {
+    while (styleElement.firstChild) {
+      styleElement.removeChild(styleElement.firstChild);
+    }
+    styleElement.appendChild(document.createTextNode(css));
+  }
+}
+module.exports = styleTagTransform;
+
+/***/ }),
+
+/***/ "./src/DOMstuff.js":
+/*!*************************!*\
+  !*** ./src/DOMstuff.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   addProjectButton: () => (/* binding */ addProjectButton),
+/* harmony export */   addTaskButton: () => (/* binding */ addTaskButton),
+/* harmony export */   cancelProjectButton: () => (/* binding */ cancelProjectButton),
+/* harmony export */   confirmProjectButton: () => (/* binding */ confirmProjectButton),
+/* harmony export */   deleteProject: () => (/* binding */ deleteProject),
+/* harmony export */   deleteProjectCancel: () => (/* binding */ deleteProjectCancel),
+/* harmony export */   deleteProjectConfirm: () => (/* binding */ deleteProjectConfirm),
+/* harmony export */   drawNewProjectContainer: () => (/* binding */ drawNewProjectContainer),
+/* harmony export */   drawTask: () => (/* binding */ drawTask),
+/* harmony export */   eraseProjectContainer: () => (/* binding */ eraseProjectContainer),
+/* harmony export */   gatherTaskInfo: () => (/* binding */ gatherTaskInfo),
+/* harmony export */   getCurrentContainer: () => (/* binding */ getCurrentContainer),
+/* harmony export */   getProjectName: () => (/* binding */ getProjectName),
+/* harmony export */   hideProjects: () => (/* binding */ hideProjects),
+/* harmony export */   modalOverlay: () => (/* binding */ modalOverlay),
+/* harmony export */   modalOverlay2: () => (/* binding */ modalOverlay2),
+/* harmony export */   projectList: () => (/* binding */ projectList),
+/* harmony export */   projectNameInput: () => (/* binding */ projectNameInput),
+/* harmony export */   projects: () => (/* binding */ projects),
+/* harmony export */   submitButton: () => (/* binding */ submitButton),
+/* harmony export */   taskContainer: () => (/* binding */ taskContainer)
+/* harmony export */ });
+/* harmony import */ var _index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index */ "./src/index.js");
+
+
+const mainContainer = document.querySelector('.main-container')
+const header = document.querySelector('.header')
+const sidebar = document.querySelector('.sidebar')
+const taskContainer = document.querySelector('.tasks')
+const projects = document.querySelector('.default-projects-list')
+const userProjectContainer = document.querySelector('.user-projects')
+
+const addProjectButton = document.querySelector('.add-project-button')
+const addTaskButton = document.querySelector('.add-task-button')
+
+const modalOverlay = document.querySelector('#modal-overlay')
+const submitButton = document.querySelector('.submit-task-button')
+
+const confirmProjectButton = document.querySelector('.confirm-project') 
+const cancelProjectButton = document.querySelector('.cancel-project')
+const projectNameInput = document.querySelector('.project-name-input-field')
+
+const deleteProject = document.querySelector('.delete-project')
+const deleteProjectConfirm = document.querySelector('.confirm-project-delete')
+const deleteProjectCancel = document.querySelector('.cancel-project-delete')
+const modalOverlay2 = document.querySelector('#modal-overlay-2')
+
+
+let projectNameDiv = document.body.querySelector('.project-name-input')
+
+
+
+let projectList = [projects.children[0],projects.children[1],projects.children[2]]
+
+
+
+function drawNewProjectContainer(name){
+
+    let newProjectContainer = document.createElement('button')
+    newProjectContainer.innerText = name
+    userProjectContainer.appendChild(newProjectContainer)
+    projectNameDiv.style.display = 'none'
+    projectList.push(newProjectContainer)
+
+
+for(let i = 0; i < projectList.length;i++){
+    projectList[i].addEventListener('click', ()=>{
+ 
+
+        for(let j = 0; j < projectList.length;j++){
+            projectList[j].classList.remove('highlighted');
+        }
+  
+        projectList[i].classList.add('highlighted');
+
+        hideProjects()
+        ;(0,_index__WEBPACK_IMPORTED_MODULE_0__.displayProjectTasks)(projectList[i].innerText)
+
+});
+}
+}    
+
+function hideProjects(){
+    let length = taskContainer.children.length
+    for(let i = 0; i < length;i++){
+        taskContainer.children[0].remove()
+    }
+}
+
+
+
+function getProjectName(){
+
+    projectNameDiv.style.display = 'flex'
+
+}
+
+
+cancelProjectButton.addEventListener('click',()=>{
+    projectNameDiv.style.display = 'none'
+})
+
+
+function drawTask(toDo){
+
+    const taskDiv = document.createElement('div')
+    const taskLeft = document.createElement('div')
+    const taskRight = document.createElement('div')
+    const taskCenter = document.createElement('div')
+
+
+    const checkbox = document.createElement('input')
+    checkbox.classList.add('checkbox')
+    checkbox.type = 'checkbox'
+    
+
+    const taskName = document.createElement('h1')
+    taskName.innerHTML = toDo.title
+
+    taskLeft.appendChild(checkbox)
+    taskLeft.appendChild(taskName)
+
+    const taskNotes = document.createElement('p')
+    taskNotes.innerHTML = toDo.description
+
+    taskCenter.appendChild(taskNotes)
+
+
+    const viewDetails = document.createElement('i')
+    viewDetails.classList.add('fa-solid')
+    viewDetails.classList.add('fa-eye')
+    viewDetails.style = 'color:rgb(109, 109, 109);'
+
+
+    const garbageButton = document.createElement('i')
+    garbageButton.classList.add('fa-solid')
+    garbageButton.classList.add('fa-trash')
+    garbageButton.style = 'color:rgb(109, 109, 109);'
+
+
+    const date = document.createElement('h2')
+    date.innerText = toDo.dueDate
+
+    taskRight.appendChild(date)
+    taskRight.appendChild(viewDetails)
+    taskRight.appendChild(garbageButton)
+
+    taskDiv.classList.add('task')
+    taskLeft.classList.add('task-left')
+    taskRight.classList.add('task-right')
+    taskCenter.classList.add('task-center')
+
+    taskDiv.appendChild(taskLeft)
+    taskDiv.appendChild(taskCenter)
+    taskDiv.appendChild(taskRight)
+
+
+    taskContainer.appendChild(taskDiv)
+
+    garbageButton.addEventListener('click',()=>{
+        ;(0,_index__WEBPACK_IMPORTED_MODULE_0__.removeTask)(toDo,getCurrentContainer())
+        eraseTask(event.target)
+    })
+
+}
+
+
+function eraseTask(clickedElement){
+
+    clickedElement.parentNode.parentNode.remove()
+
+}
+
+
+
+
+addTaskButton.addEventListener('click', ()=>{
+
+    modalOverlay.style.display = 'flex'
+
+
+
+})
+
+
+
+function gatherTaskInfo(){
+
+    let taskName = document.querySelector('#task-name').value
+    let taskDescription = document.querySelector('#task-description').value
+    let taskDate = document.querySelector('#task-date').value
+    let taskPrioLow = document.querySelector('#prio-low')
+    let taskPrioMed = document.querySelector('#prio-med')
+    let taskPrioHigh = document.querySelector('#prio-high')
+
+    let prio
+
+    if(taskPrioLow.checked){
+        prio = 'low'
+    } else if (taskPrioMed.checked){
+        prio = 'med'
+    } else if (taskPrioHigh.checked){
+        prio = 'high'
+    }
+
+    const taskInfo = {
+
+        taskName : taskName,
+        taskDescription : taskDescription,
+        taskDate : taskDate,
+        taskPrio : prio
+
+    }
+
+    return taskInfo
+
+}
+
+
+function getCurrentContainer(){
+        for(let i = 0; i < projectList.length;i++){
+            if(projectList[i].classList.contains('highlighted')){
+                return projectList[i].innerText
+            }
+        }
+        return 'Inbox'
+}
+
+
+function eraseProjectContainer(projectName){
+    
+    let length = userProjectContainer.children.length
+
+    for(let i = 0; i < length;i++){
+        if(userProjectContainer.children[i].innerHTML === projectName){
+            userProjectContainer.children[i].remove()
+        }
+    }
+
+}
+
+
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   addProjectEventListeners: () => (/* binding */ addProjectEventListeners),
+/* harmony export */   displayProjectTasks: () => (/* binding */ displayProjectTasks),
+/* harmony export */   removeTask: () => (/* binding */ removeTask)
+/* harmony export */ });
+/* harmony import */ var _src_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/style.css */ "./src/style.css");
+/* harmony import */ var _DOMstuff__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DOMstuff */ "./src/DOMstuff.js");
+/* harmony import */ var _logic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./logic */ "./src/logic.js");
+
+
+
+
+
+(0,_logic__WEBPACK_IMPORTED_MODULE_2__.updateProjectsMap)()
+displayProjectTasks(' Inbox')
+
+
+function drawExistingProjects(){
+
+    let existingProjects = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.getProjectsFromStorage)()
+
+    const keysArray = Array.from(existingProjects.keys());
+
+
+    for(let i = 3; i < existingProjects.size; i++){
+
+
+        (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.drawNewProjectContainer)(keysArray[i])
+    }
+
+ 
+}
+
+drawExistingProjects()
+
+
+
+_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.submitButton.addEventListener('click',()=>{
+
+    
+    let taskInfo = (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.gatherTaskInfo)()
+    let task = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.createToDo)(taskInfo.taskName,taskInfo.taskDescription,taskInfo.taskDate,taskInfo.prio)
+    let currentContainerName = (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.getCurrentContainer)()
+
+        let projectsMap = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.getProjectsMap)()
+        
+        let currentContainer = projectsMap.get(currentContainerName)
+        if(currentContainerName === " Today" || currentContainerName === " This week"){
+            (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,projectsMap.get(" Inbox"))
+            task.addToContainer(" Inbox")
+
+
+        } else {
+            (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,currentContainer)
+            task.addToContainer(currentContainerName)
+            ;(0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.drawTask)(task)
+
+        }
+    
+    
+    if((0,_logic__WEBPACK_IMPORTED_MODULE_2__.isTaskDueToday)(task)){
+        (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,projectsMap.get(" Today"))
+        task.addToContainer(" Today")
+
+    }
+
+    if((0,_logic__WEBPACK_IMPORTED_MODULE_2__.isTaskDueThisWeek)(task)){
+
+        (0,_logic__WEBPACK_IMPORTED_MODULE_2__.addToContainer)(task,projectsMap.get(" This week"))
+        task.addToContainer(" This week")
+
+    }
+
+    (0,_logic__WEBPACK_IMPORTED_MODULE_2__.updateProjectsInStorage)()
+
+    _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.modalOverlay.style.display = 'none'
+
+})
+
+
+function addProjectEventListeners(){
+
+    for(let i = 0; i < _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.projectList.length;i++){
+        _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.projectList[i].addEventListener('click', ()=>{
+     
+    
+            for(let j = 0; j < _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.projects.children.length;j++){
+                _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.projectList[j].classList.remove('highlighted');
+            }
+      
+            _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.projectList[i].classList.add('highlighted');
+            (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.hideProjects)()
+
+            displayProjectTasks(_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.projectList[i].innerText)
+            
+    });
+    }
+}
+
+addProjectEventListeners()
+
+_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.addProjectButton.addEventListener('click',()=>{
+
+    ;(0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.getProjectName)()    
+
+})
+
+_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.confirmProjectButton.addEventListener('click', ()=>{
+    let newProjectName = _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.projectNameInput.value
+    let newProjectObject = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.createProject)(newProjectName)
+    _logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.set(newProjectName,newProjectObject)
+
+    ;(0,_logic__WEBPACK_IMPORTED_MODULE_2__.updateProjectsInStorage)(newProjectName)
+    
+    ;(0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.drawNewProjectContainer)(newProjectName)
+})
+
+// function addProjectToLocalStorage(newProjectName){
+
+//     let project = projectmap.get(newProjectName)
+
+//     let serializedProject = JSON.stringify(project)
+//     localStorage.
+
+
+// }
+
+
+function displayProjectTasks(containerName){
+
+    let map = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.getProjectsMap)()
+
+
+    for (const [key, value] of map) {
+        if(key === containerName){
+            let currentProjectArray = _logic__WEBPACK_IMPORTED_MODULE_2__.projectsMap.get(key)
+            for(let i = 0; i < currentProjectArray.length;i++){
+                (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.drawTask)(currentProjectArray[i])
+            }
+        }
+      }
+      
+
+
+
+
+}
+
+function removeTask(task,projectName){
+
+    let projectsMap = (0,_logic__WEBPACK_IMPORTED_MODULE_2__.getProjectsMap)()
+    let projectArray = projectsMap.get(projectName)
+    let containers = task.containers
+
+    let arrayLength = projectArray.length
+
+    for(let i = 0;i < containers.length;i++){
+        for(const key of projectsMap.keys()){
+            if(containers[i] === key){
+                (0,_logic__WEBPACK_IMPORTED_MODULE_2__.removeTaskFromProject)(task,key)
+            }
+        }
+    }
+
+    (0,_logic__WEBPACK_IMPORTED_MODULE_2__.updateProjectsInStorage)()
+
+}
+
+function removeProject(projectName){
+
+
+    (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.hideProjects)()
+    ;(0,_logic__WEBPACK_IMPORTED_MODULE_2__.emptyProjectArray)(projectName)
+    ;(0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.eraseProjectContainer)(projectName)
+
+
+
+}
+
+
+
+_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.deleteProjectConfirm.addEventListener('click', ()=>{
+    let currentContainer = (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.getCurrentContainer)()
+     if (currentContainer === (' Inbox' || 0 || 0)){
+         return
+     } else {
+        removeProject(currentContainer)
+        _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.modalOverlay2.style.display = 'none'
+        // emptyProjectArray(currentContainer)
+        ;(0,_logic__WEBPACK_IMPORTED_MODULE_2__.updateProjectsInStorage)()
+
+     }
+ })
+
+ _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.deleteProject.addEventListener('click',()=>{
+    let currentContainer = (0,_DOMstuff__WEBPACK_IMPORTED_MODULE_1__.getCurrentContainer)()
+
+    if (currentContainer === (' Inbox' || 0 || 0)){
+        return
+    } else {
+
+        _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.modalOverlay2.style.display = 'flex'
+        let modalHeader = document.querySelector('#delete-project-header')
+        modalHeader.innerText = `Delete project ${currentContainer}?`
+    }
+ })
+
+ _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.deleteProjectCancel.addEventListener('click',()=>{
+    _DOMstuff__WEBPACK_IMPORTED_MODULE_1__.modalOverlay2.style.display = 'none'
+
+ })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+
+/***/ "./src/logic.js":
+/*!**********************!*\
+  !*** ./src/logic.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   addStoredTasks: () => (/* binding */ addStoredTasks),
+/* harmony export */   addToContainer: () => (/* binding */ addToContainer),
+/* harmony export */   createProject: () => (/* binding */ createProject),
+/* harmony export */   createToDo: () => (/* binding */ createToDo),
+/* harmony export */   emptyProjectArray: () => (/* binding */ emptyProjectArray),
+/* harmony export */   getProjectsFromStorage: () => (/* binding */ getProjectsFromStorage),
+/* harmony export */   getProjectsMap: () => (/* binding */ getProjectsMap),
+/* harmony export */   inbox: () => (/* binding */ inbox),
+/* harmony export */   isTaskDueThisWeek: () => (/* binding */ isTaskDueThisWeek),
+/* harmony export */   isTaskDueToday: () => (/* binding */ isTaskDueToday),
+/* harmony export */   projectsMap: () => (/* binding */ projectsMap),
+/* harmony export */   removeTaskFromProject: () => (/* binding */ removeTaskFromProject),
+/* harmony export */   updateProjectsInStorage: () => (/* binding */ updateProjectsInStorage),
+/* harmony export */   updateProjectsMap: () => (/* binding */ updateProjectsMap)
+/* harmony export */ });
+/* harmony import */ var _DOMstuff__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./DOMstuff */ "./src/DOMstuff.js");
+
+
+let thisWeek = []
+let today = []
+
+let inbox = []
+
+let projectsMap = new Map([
+    
+    [" Inbox", inbox],
+    [" Today", today],
+    [" This week", thisWeek]
+
+
+])
+
+
+
+function updateProjectsMap(){
+
+    projectsMap = getProjectsFromStorage()
+
+} 
+
+function updateProjectsInStorage(){
+
+    let serializedProjects = JSON.stringify([...projectsMap])
+    localStorage.setItem('projects', serializedProjects)
+
+
+}
+
+function getProjectsFromStorage(){
+
+    let projects =  JSON.parse(localStorage.getItem('projects'))
+    return new Map(projects)
+
+}
+
+
+function addStoredTasks(){
+
+
+
+}
+
+
+
+
+function getProjectsMap(){
+    return projectsMap
+}
+
+function removeTaskFromProject(task,project){
+    let removedProject = projectsMap.get(project)
+    for(let i = 0; i < removedProject.length;i++){
+        if(removedProject[i].title === task.title){
+            removedProject.splice(i,1)
+        }
+    }
+}
+
+const toDoFactory = (title,description,dueDate,priority) => {
+
+    let toDoItem = {
+        title: title,
+        description: description,
+        dueDate: dueDate,
+        priority: priority,
+        containers : [],
+
+        addToContainer : function(container) {
+            for(const key of projectsMap.keys()){
+                if(container === key){
+                    toDoItem.containers.push(key)
+                }
+            }
+        }
+      }
+
+     
+
+
+    return {toDoItem}
+}
+
+
+
+
+
+
+function createToDo(title,description,dueDate,priority){
+    let newToDo = toDoFactory(title,description,dueDate,priority).toDoItem
+
+
+    return newToDo
+}
+
+function addToContainer(toDo,container){
+
+    container.push(toDo)
+}
+
+
+
+function createProject(title){
+    let newProject = []
+    return newProject
+}
+
+    const date = new Date()
+    let day = date.getDay()
+    let month = date.getMonth()
+    let year = date.getFullYear()
+
+
+function isTaskDueToday(toDo){
+
+
+   let fullDate = date.toISOString().slice(0,10)
+    if(toDo.dueDate == fullDate){
+        return true
+    }
+
+    return false
+
+}
+
+
+function isTaskDueThisWeek(toDo){
+
+
+    let fullDate = date.toISOString().slice(0,10)
+
+    let userDate = new Date(toDo.dueDate)
+
+    let difference = userDate - date
+    var differenceInDays = Math.floor(difference / (1000 * 60 * 60 * 24));
+    var isWithinWeek = Math.abs(differenceInDays) <= 7;
+
+
+
+
+    
+    if(isWithinWeek ){
+        return true
+    }
+
+    return false
+
+}
+    
+
+function emptyProjectArray(projectName){
+    projectsMap.get(projectName).length = 0
+}
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			id: moduleId,
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/nonce */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nc = undefined;
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module is referenced by other modules so it can't be inlined
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	
+/******/ })()
+;
