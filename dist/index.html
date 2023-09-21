@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"><head><script defer src="/bundle.js"></script></head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6e5df77f8f.js" crossorigin="anonymous"></script>
+        <title>Todo</title>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <div class="logo">
+                <i class="fa-sharp fa-solid fa-pencil fa-4x" style="color: #ffffff;"></i>
+                <h1>To-Do List</h1>
+            </div>
+            
+        </div>
+        <div class="sidebar">
+
+            <div class='default-projects-list'>
+                <button class="highlighted">
+                    <i class="fa-solid fa-inbox fa-1.5x" style="color: #888888;"></i>
+                    Inbox
+                </button>
+                <button>
+                    <i class="fa-solid fa-calendar-day"></i>
+                    Today
+                </button>
+                <button>
+                    <i class="fa-solid fa-calendar-week"></i>
+                    This week
+                </button>
+            </div>
+            <div class='projects-list'>
+
+                
+                <h1 class="projects-title">Projects</h1>
+                <div class="user-projects">
+
+                </div>
+                <div class="project-name-input">
+                <input class="project-name-input-field">
+                </input>
+                <div class="project-name-input-buttons">
+                    <i class="fa-solid fa-circle-check confirm-project"></i>
+                    <i class="fa-sharp fa-solid fa-circle-xmark cancel-project"></i>
+                </div>
+                </div>
+                
+
+                <button class="add-project-button">
+                <i class="fa-solid fa-circle-plus"></i>
+                Add Project
+                </button>
+
+                
+
+            </div>
+            
+        </div>
+        <div class="todo-container">
+            <div class="tasks">
+                
+            </div>
+            <div class="add-task">
+                <button class="add-task-button">
+                    <i class="fa-solid fa-plus" style="color: rgb(32, 32, 32);"></i>
+                    <h2>Add task</h2>
+                </button>
+                <i class="fa-solid fa-trash fa-2x delete-project" style="color: #888888;"></i>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div id="modal-overlay">
+        <div id="modal-content">
+            <div class="modal-header">  
+                <h1>New task</h1>
+            </div>
+            <div class="modal-form">
+                <form>
+                    <input id="task-name" placeholder="task name">
+                    <textarea id="task-description" name="user_message" placeholder=" description"></textarea>
+                    <input id="task-date" type="date">
+                </form>
+                <div class="priority-select">
+                    <h1>Priority:</h1>
+                    <form id="radio-form">
+                        <input type="radio" id="prio-low" name="prio" checked>
+                        <input type="radio" id="prio-med" name="prio">
+                        <input type="radio" id="prio-high" name="prio">
+                    </form>
+                  </div>
+                <button class="submit-task-button">
+                    <i class="fa-solid fa-plus fa-2x" style="color: rgb(255, 255, 255);"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-overlay-2">
+        <div id="modal-content-2">
+            <div class="modal-header">
+                <h1 id="delete-project-header">Delete project</h1>
+  
+            </div>
+            <div class="modal-delete-project">
+                <div class="project-delete-buttons">
+                    <i class="fa-solid fa-circle-check confirm-project-delete fa-4x" style="color: rgb(43, 180, 43);"></i>
+                    <i class="fa-sharp fa-solid fa-circle-xmark cancel-project-delete fa-4x" style="color: rgb(231, 18, 18);"></i>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
